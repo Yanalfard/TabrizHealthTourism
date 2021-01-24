@@ -1,0 +1,609 @@
+﻿.PanelHeartStyle {
+}
+
+.ImgHeaderHeartStyle {
+    width: 100%;
+    transform: scaleX(-1)
+}
+
+.DivVideoAndTextHeartStyle {
+    margin-top: 5%;
+}
+
+.VideoHeartStyle {
+    width: 100%;
+}
+
+.TitrTextVideoHeartStyle {
+    font-family: W_yekan;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoHeartStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoHeartStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.SliderDivTextHeartStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 5%;
+}
+
+.SliderTitrHeartStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextHeartStyle {
+    position: absolute;
+    margin-top: -30%;
+    margin-right: 5%;
+}
+
+.SliderZirTitrHeartStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionHeartTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-right: 5.5%;
+}
+
+.SliderDescriptionHeartTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnHeartSingInStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-right: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnHeartSingInStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-right: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnHeartStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnHeartStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextHeartStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextHeartStyle {
+    font-family: W_yekan;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.DescaptirionOrginalHeartStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneHeartStyle {
+}
+
+.Pic3HeartRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOneHeartStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneHeartStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOneHeartStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoHeartStyle {
+    margin-top: 10%;
+}
+
+.Pic1HeartRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoHeartStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoHeartStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoHeartStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowThreeHeartStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2HeartRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreeHeartStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeHeartStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreeHeartStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+/*#Sm*/
+.PanelHeartSmStyle {
+}
+
+.ImgHeaderHeartSmStyle {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.SliderDivTextHeartSmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 5%;
+}
+
+.SliderTitrHeartSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextHeartSmStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-right: 5%;
+}
+
+.SliderZirTitrHeartSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionHeartTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-right: 5.5%;
+}
+
+.SliderDescriptionHeartTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnHeartSingInSmStyle {
+    position: absolute;
+    margin-top: -6.5%;
+    margin-right: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnHeartSingInSmStyle:hover {
+        position: absolute;
+        margin-top: -6.5%;
+        margin-right: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnHeartSmStyle {
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+    .TextBtnHeartSmStyle:hover {
+        color: white;
+        font-size: 2vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextHeartSmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextHeartSmStyle {
+    font-family: W_yekan;
+    font-size: 1.7vw;
+    color: black;
+}
+
+.DivVideoAndTextHeartSmStyle {
+    margin-top: 5%;
+}
+
+.VideoHeartSmStyle {
+    width: 100%;
+}
+
+.DivZirVideoHeartSmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoHeartSmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoHeartSmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalHeartSmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneHeartSmStyle {
+}
+
+.Pic3HeartRowOneTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneHeartSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneHeartSmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneHeartSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneHeartSmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowTwoHeartSmStyle {
+    margin-top: 10%;
+}
+
+.Pic1HeartRowTwoTreatmentSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoHeartSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoHeartSmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoHeartSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoHeartSmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowThreeHeartSmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2HeartRowThreeTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeHeartSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeHeartSmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeHeartSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeHeartSmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+/* #Xs*/
+
+
+.PanelHeartXsStyle {
+}
+
+.ImgHeaderHeartXsStyle {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.SliderDivTextHeartXsStyle {
+    position: absolute;
+    margin-top: -36%;
+    margin-right: 3%;
+}
+
+.SliderTitrHeartXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextHeartXsStyle {
+    position: absolute;
+    margin-top: -32%;
+    margin-right: 3%;
+}
+
+.SliderZirTitrHeartXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionHeartTitrXsStyle {
+    position: absolute;
+    margin-top: -22%;
+    margin-right: 3.5%;
+}
+
+.SliderDescriptionHeartTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnHeartSingInXsStyle {
+    position: absolute;
+    margin-top: -8%;
+    margin-right: 60%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnHeartSingInXsStyle:hover {
+        position: absolute;
+        margin-top: -8%;
+        margin-right: 60%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnHeartXsStyle {
+    color: white;
+    font-size: 2.7vw;
+    font-weight: bold;
+}
+
+    .TextBtnHeartXsStyle:hover {
+        color: white;
+        font-size: 2.7vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextHeartXsStyle {
+    margin-top: 3%;
+}
+
+.ZirHeadersImgTextHeartXsStyle {
+    font-family: W_yekan;
+    font-size: 2.3vw;
+    color: black;
+}
+
+.DivVideoAndTextHeartXsStyle {
+    margin-top: 5%;
+}
+
+.VideoHeartXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoHeartXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoHeartXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoHeartXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionOrginalHeartXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneHeartXsStyle {
+}
+
+.Pic3HeartTreatmentRowOneTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneHeartXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneHeartXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneHeartXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneHeartXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoHeartXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1HeartRowTwoTreatmentXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoHeartXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoHeartXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoHeartXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoHeartXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeHeartXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2HeartRowThreeTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeHeartXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeHeartXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeHeartXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeHeartXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}

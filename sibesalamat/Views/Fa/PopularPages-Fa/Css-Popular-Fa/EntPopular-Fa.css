@@ -1,0 +1,609 @@
+﻿.PanelEntStyle {
+}
+
+.ImgHeaderEntStyle {
+    width: 100%;
+    transform: scaleX(-1)
+}
+
+.DivVideoAndTextEntStyle {
+    margin-top: 5%;
+}
+
+.VideoEntStyle {
+    width: 100%;
+}
+
+.TitrTextVideoEntStyle {
+    font-family: W_yekan;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoEntStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoEntStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.SliderDivTextEntStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 5%;
+}
+
+.SliderTitrEntStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextEntStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-right: 5%;
+}
+
+.SliderZirTitrEntStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionEntTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-right: 5.5%;
+}
+
+.SliderDescriptionEntTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnEntSingInStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-right: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnEntSingInStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-right: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnEntStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnEntStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextEntStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextEntStyle {
+    font-family: W_yekan;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.DescaptirionOrginalEntStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneEntStyle {
+}
+
+.Pic3EntRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOneEntStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneEntStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOneEntStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoEntStyle {
+    margin-top: 10%;
+}
+
+.Pic1EntRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoEntStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoEntStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoEntStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowThreeEntStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2EntRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreeEntStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeEntStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreeEntStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+/*#Sm*/
+.PanelEntSmStyle {
+}
+
+.ImgHeaderEntSmStyle {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.SliderDivTextEntSmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 5%;
+}
+
+.SliderTitrEntSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextEntSmStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-right: 5%;
+}
+
+.SliderZirTitrEntSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionEntTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-right: 5.5%;
+}
+
+.SliderDescriptionEntTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnEntSingInSmStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-right: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnEntSingInSmStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-right: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnEntSmStyle {
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+    .TextBtnEntSmStyle:hover {
+        color: white;
+        font-size: 2vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextEntSmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextEntSmStyle {
+    font-family: W_yekan;
+    font-size: 1.7vw;
+    color: black;
+}
+
+.DivVideoAndTextEntSmStyle {
+    margin-top: 5%;
+}
+
+.VideoEntSmStyle {
+    width: 100%;
+}
+
+.DivZirVideoEntSmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoEntSmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoEntSmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalEntSmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneEntSmStyle {
+}
+
+.Pic3EntRowOneTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneEntSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneEntSmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneEntSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneEntSmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowTwoEntSmStyle {
+    margin-top: 10%;
+}
+
+.Pic1EntRowTwoTreatmentSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoEntSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoEntSmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoEntSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoEntSmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowThreeEntSmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2EntRowThreeTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeEntSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeEntSmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeEntSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeEntSmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+/* #Xs*/
+
+
+.PanelEntXsStyle {
+}
+
+.ImgHeaderEntXsStyle {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.SliderDivTextEntXsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 3%;
+}
+
+.SliderTitrEntXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextEntXsStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-right: 3%;
+}
+
+.SliderZirTitrEntXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionEntTitrXsStyle {
+    position: absolute;
+    margin-top: -19%;
+    margin-right: 3.5%;
+}
+
+.SliderDescriptionEntTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnEntSingInXsStyle {
+    position: absolute;
+    margin-top: -8%;
+    margin-right: 40%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnEntSingInXsStyle:hover {
+        position: absolute;
+        margin-top: -8%;
+        margin-right: 40%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnEntXsStyle {
+    color: white;
+    font-size: 2.7vw;
+    font-weight: bold;
+}
+
+    .TextBtnEntXsStyle:hover {
+        color: white;
+        font-size: 2.7vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextEntXsStyle {
+    margin-top: 3%;
+}
+
+.ZirHeadersImgTextEntXsStyle {
+    font-family: W_yekan;
+    font-size: 2.3vw;
+    color: black;
+}
+
+.DivVideoAndTextEntXsStyle {
+    margin-top: 5%;
+}
+
+.VideoEntXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoEntXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoEntXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoEntXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionOrginalEntXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneEntXsStyle {
+}
+
+.Pic3EntTreatmentRowOneTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneEntXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneEntXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneEntXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneEntXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoEntXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1EntRowTwoTreatmentXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoEntXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoEntXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoEntXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoEntXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeEntXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2EntRowThreeTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeEntXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeEntXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeEntXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeEntXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}

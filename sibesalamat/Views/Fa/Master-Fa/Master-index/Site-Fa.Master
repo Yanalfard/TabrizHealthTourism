@@ -1,0 +1,1212 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site-Fa.Master.cs" Inherits="sibesalamat.Views.Fa.Master_Fa.Master_index.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fa" xml:lang="fa" dir="rtl">
+<head runat="server">
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+
+    <title><%: Page.Title %> سیب سلامت</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SibeSalamat" />
+    <meta name="keywords" content="سیب سلامت" />
+    <meta name="language" content="fa-US" />
+    <link rel="icon" href="../../../../Resources/Master/Logo/LogoSibeSalamat.png" />
+    <script src="https://www.google.com/recaptcha/api.js?render=put your site key here"></script>
+
+    <script src="../../../../Scripts/jquery-1.9.1.min.js"></script>
+    <script src="../../../../Scripts/bootstrap.min.js"></script>
+    <link href="../../../../Content/bootstrap-theme.min.css" rel="Stylesheet" />
+    <link href="../../../../Content/bootstrap.min.css" rel="Stylesheet" />
+
+    <script src="../../../../Views/Fa/Master-Fa/Jlibiary-Master-Fa/Site-Fa.js"></script>
+    <link href="../../../../Views/Fa/Master-Fa/Css-Master-Fa/Site-Fa.css" rel="Stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container-fluid">
+
+            <div id="header" class="row">
+                <img src="../../../../Resources/Fa/Master/Header/headerlogoRowOneMasterFa.png" class="ImgheaderlogoRowOneMasterFaStyle img-responsive" alt="SibesSalamat-HeaderlogoRowOne" title="SibesSalamat-HeaderlogoRowOne" />
+
+                <div id="PanelHearder">
+                    <style>
+                        @media screen and (min-width: 100px) {
+                            .LblsinginMasterFaStyle {
+                                color: black;
+                                font-size: 0.8em;
+                                text-decoration: underline;
+                                font-family: Arial;
+                                cursor: pointer;
+                                font-weight: bold;
+                            }
+
+                                .LblsinginMasterFaStyle:hover {
+                                    color: black;
+                                    font-size: 0.8em;
+                                    text-decoration: underline;
+                                    font-family: Arial;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                }
+
+                            .LbllanguageMasterFaStyle {
+                                color: black;
+                                font-size: 0.8em;
+                                text-decoration: underline;
+                                font-family: Arial;
+                                cursor: pointer;
+                                font-weight: bold;
+                            }
+
+                                .LbllanguageMasterFaStyle:hover {
+                                    color: black;
+                                    font-size: 0.8em;
+                                    text-decoration: underline;
+                                    font-family: Arial;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                }
+
+                            .DivPositionTextSininMasterFaStyle {
+                                background-color: white;
+                                position: absolute;
+                                margin-top: -9%;
+                                margin-right: 10%;
+                                width: 30px;
+                                height: 50px;
+                            }
+
+                            .DivPositionTextSelectLanguageMasterFaStyle {
+                                background-color: white;
+                                position: absolute;
+                                margin-top: -9%;
+                                margin-right: 70%;
+                                width: 70px;
+                                height: 50px;
+                            }
+
+                            .SelectLanguageImgMasterFaStyle {
+                                margin-right: 5%;
+                                margin-top: -10%;
+                                width: 20%;
+                            }
+
+                            .SpanLanguageStyle {
+                                color: #134b0a;
+                            }
+                        }
+
+                        @media screen and (min-width: 400px) {
+                            .LblsinginMasterFaStyle {
+                                color: black;
+                                font-size: 1.1em;
+                                text-decoration: underline;
+                                font-family: Arial;
+                                cursor: pointer;
+                                font-weight: bold;
+                            }
+
+                                .LblsinginMasterFaStyle:hover {
+                                    color: black;
+                                    font-size: 1.1em;
+                                    text-decoration: underline;
+                                    font-family: Arial;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                }
+
+                            .LbllanguageMasterFaStyle {
+                                color: black;
+                                font-size: 1.3em;
+                                text-decoration: underline;
+                                font-family: Arial;
+                                cursor: pointer;
+                                font-weight: bold;
+                            }
+
+                                .LbllanguageMasterFaStyle:hover {
+                                    color: black;
+                                    font-size: 1.3em;
+                                    text-decoration: underline;
+                                    font-family: Arial;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                }
+
+                            .DivPositionTextSininMasterFaStyle {
+                                background-color: white;
+                                position: absolute;
+                                margin-top: -8%;
+                                margin-right: 10%;
+                                width: 30px;
+                                height: 50px;
+                            }
+
+                            .DivPositionTextSelectLanguageMasterFaStyle {
+                                background-color: white;
+                                position: absolute;
+                                margin-top: -8%;
+                                margin-right: 70%;
+                                width: 110px;
+                                height: 50px;
+                            }
+
+                            .SelectLanguageImgMasterFaStyle {
+                                margin-right: 5%;
+                                margin-top: -10%;
+                                width: 20%;
+                            }
+
+                            .SpanLanguageStyle {
+                                color: #134b0a;
+                            }
+                        }
+
+                        @media screen and (min-width: 500px) {
+                            .LblsinginMasterFaStyle {
+                                color: black;
+                                font-size: 1.3em;
+                                text-decoration: underline;
+                                font-family: Arial;
+                                cursor: pointer;
+                                font-weight: bold;
+                            }
+
+                                .LblsinginMasterFaStyle:hover {
+                                    color: black;
+                                    font-size: 1.3em;
+                                    text-decoration: underline;
+                                    font-family: Arial;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                }
+
+                            .LbllanguageMasterFaStyle {
+                                color: black;
+                                font-size: 1.3em;
+                                text-decoration: underline;
+                                font-family: Arial;
+                                cursor: pointer;
+                                font-weight: bold;
+                            }
+
+                                .LbllanguageMasterFaStyle:hover {
+                                    color: black;
+                                    font-size: 1.3em;
+                                    text-decoration: underline;
+                                    font-family: Arial;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                }
+
+                            .DivPositionTextSininMasterFaStyle {
+                                background-color: white;
+                                position: absolute;
+                                margin-top: -7.5%;
+                                margin-right: 10%;
+                                width: 30px;
+                                height: 50px;
+                            }
+
+                            .DivPositionTextSelectLanguageMasterFaStyle {
+                                background-color: white;
+                                position: absolute;
+                                margin-top: -7.5%;
+                                margin-right: 70%;
+                                width: 110px;
+                                height: 50px;
+                            }
+
+                            .SelectLanguageImgMasterFaStyle {
+                                margin-right: 5%;
+                                margin-top: -10%;
+                                width: 20%;
+                            }
+
+                            .SpanLanguageStyle {
+                                color: #134b0a;
+                            }
+                        }
+
+                        @media screen and (min-width: 650px) {
+                            .LblsinginMasterFaStyle {
+                                color: black;
+                                font-size: 1.3em;
+                                text-decoration: underline;
+                                font-family: Arial;
+                                cursor: pointer;
+                                font-weight: bold;
+                            }
+
+                                .LblsinginMasterFaStyle:hover {
+                                    color: black;
+                                    font-size: 1.3em;
+                                    text-decoration: underline;
+                                    font-family: Arial;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                }
+
+                            .LbllanguageMasterFaStyle {
+                                color: black;
+                                font-size: 1.3em;
+                                text-decoration: underline;
+                                font-family: Arial;
+                                cursor: pointer;
+                                font-weight: bold;
+                            }
+
+                                .LbllanguageMasterFaStyle:hover {
+                                    color: black;
+                                    font-size: 1.3em;
+                                    text-decoration: underline;
+                                    font-family: Arial;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                }
+
+                            .DivPositionTextSininMasterFaStyle {
+                                background-color: white;
+                                position: absolute;
+                                margin-top: -6.5%;
+                                margin-right: 92%;
+                                width: 30px;
+                                height: 50px;
+                            }
+
+                            .DivPositionTextSelectLanguageMasterFaStyle {
+                                background-color: white;
+                                position: absolute;
+                                margin-top: -6.5%;
+                                margin-right: 71%;
+                                width: 110px;
+                                height: 50px;
+                            }
+
+                            .SelectLanguageImgMasterFaStyle {
+                                margin-right: 5%;
+                                margin-top: -10%;
+                                width: 20%;
+                            }
+
+                            .SpanLanguageStyle {
+                                color: #134b0a;
+                            }
+                        }
+
+                        @media screen and (min-width: 800px) {
+                            .LblsinginMasterFaStyle {
+                                color: black;
+                                font-size: 1.5em;
+                                text-decoration: underline;
+                                font-family: Arial;
+                                cursor: pointer;
+                                font-weight: bold;
+                            }
+
+                                .LblsinginMasterFaStyle:hover {
+                                    color: black;
+                                    font-size: 1.5em;
+                                    text-decoration: underline;
+                                    font-family: Arial;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                }
+
+                            .LbllanguageMasterFaStyle {
+                                color: black;
+                                font-size: 1.5em;
+                                text-decoration: underline;
+                                font-family: Arial;
+                                cursor: pointer;
+                                font-weight: bold;
+                            }
+
+                                .LbllanguageMasterFaStyle:hover {
+                                    color: black;
+                                    font-size: 1.5em;
+                                    text-decoration: underline;
+                                    font-family: Arial;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                }
+
+                            .DivPositionTextSininMasterFaStyle {
+                                background-color: white;
+                                position: absolute;
+                                margin-top: -5.7%;
+                                margin-right: 90%;
+                                width: 40px;
+                                height: 50px;
+                            }
+
+                            .DivPositionTextSelectLanguageMasterFaStyle {
+                                background-color: white;
+                                position: absolute;
+                                margin-top: -5.7%;
+                                margin-right: 70%;
+                                width: 140px;
+                                height: 50px;
+                            }
+
+                            .SelectLanguageImgMasterFaStyle {
+                                margin-right: 5%;
+                                margin-top: -10%;
+                            }
+
+                            .SpanLanguageStyle {
+                                color: #134b0a;
+                            }
+                        }
+
+                        @media screen and (min-width: 1000px) {
+                            .LblsinginMasterFaStyle {
+                                color: black;
+                                font-size: 1.5em;
+                                text-decoration: underline;
+                                font-family: Arial;
+                                cursor: pointer;
+                                font-weight: bold;
+                            }
+
+                                .LblsinginMasterFaStyle:hover {
+                                    color: black;
+                                    font-size: 1.5em;
+                                    text-decoration: underline;
+                                    font-family: Arial;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                }
+
+                            .LbllanguageMasterFaStyle {
+                                color: black;
+                                font-size: 1.5em;
+                                text-decoration: underline;
+                                font-family: Arial;
+                                cursor: pointer;
+                                font-weight: bold;
+                            }
+
+                                .LbllanguageMasterFaStyle:hover {
+                                    color: black;
+                                    font-size: 1.5em;
+                                    text-decoration: underline;
+                                    font-family: Arial;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                }
+
+                            .DivPositionTextSininMasterFaStyle {
+                                background-color: white;
+                                position: absolute;
+                                margin-top: -4.8%;
+                                margin-right: 89%;
+                                width: 40px;
+                                height: 50px;
+                            }
+
+                            .DivPositionTextSelectLanguageMasterFaStyle {
+                                background-color: white;
+                                position: absolute;
+                                margin-top: -4.8%;
+                                margin-right: 70%;
+                                width: 140px;
+                                height: 50px;
+                            }
+
+                            .SelectLanguageImgMasterFaStyle {
+                                margin-right: 5%;
+                                margin-top: -10%;
+                            }
+
+                            .SpanLanguageStyle {
+                                color: #134b0a;
+                            }
+                        }
+
+                        @media screen and (min-width: 1300px) {
+                            .LblsinginMasterFaStyle {
+                                color: black;
+                                font-size: 1.5em;
+                                text-decoration: underline;
+                                font-family: Arial;
+                                cursor: pointer;
+                                font-weight: bold;
+                            }
+
+                                .LblsinginMasterFaStyle:hover {
+                                    color: black;
+                                    font-size: 1.5em;
+                                    text-decoration: underline;
+                                    font-family: Arial;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                }
+
+                            .LbllanguageMasterFaStyle {
+                                color: black;
+                                font-size: 1.5em;
+                                text-decoration: underline;
+                                font-family: Arial;
+                                cursor: pointer;
+                                font-weight: bold;
+                            }
+
+                                .LbllanguageMasterFaStyle:hover {
+                                    color: black;
+                                    font-size: 1.5em;
+                                    text-decoration: underline;
+                                    font-family: Arial;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                }
+
+                            .DivPositionTextSininMasterFaStyle {
+                                background-color: white;
+                                position: absolute;
+                                margin-top: -4.2%;
+                                margin-right: 85%;
+                                width: 40px;
+                            }
+
+                            .DivPositionTextSelectLanguageMasterFaStyle {
+                                background-color: white;
+                                position: absolute;
+                                margin-top: -4.2%;
+                                margin-right: 70%;
+                                width: 140px;
+                            }
+
+                            .SelectLanguageImgMasterFaStyle {
+                                margin-right: 5%;
+                                margin-top: -10%;
+                            }
+
+                            .SpanLanguageStyle {
+                                color: #134b0a;
+                            }
+                        }
+
+                        @media screen and (min-width: 1600px) {
+                            .LblsinginMasterFaStyle {
+                                color: black;
+                                font-size: 1.5em;
+                                text-decoration: underline;
+                                font-family: Arial;
+                                cursor: pointer;
+                                font-weight: bold;
+                            }
+
+                                .LblsinginMasterFaStyle:hover {
+                                    color: black;
+                                    font-size: 1.5em;
+                                    text-decoration: underline;
+                                    font-family: Arial;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                }
+
+                            .LbllanguageMasterFaStyle {
+                                color: black;
+                                font-size: 1.5em;
+                                text-decoration: underline;
+                                font-family: Arial;
+                                cursor: pointer;
+                                font-weight: bold;
+                            }
+
+                                .LbllanguageMasterFaStyle:hover {
+                                    color: black;
+                                    font-size: 1.5em;
+                                    text-decoration: underline;
+                                    font-family: Arial;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                }
+
+                            .DivPositionTextSininMasterFaStyle {
+                                background-color: white;
+                                position: absolute;
+                                margin-top: -3.7%;
+                                margin-right: 85%;
+                                width: 40px;
+                            }
+
+                            .DivPositionTextSelectLanguageMasterFaStyle {
+                                background-color: white;
+                                position: absolute;
+                                margin-top: -3.8%;
+                                margin-right: 75%;
+                                width: 140px;
+                            }
+
+                            .SelectLanguageImgMasterFaStyle {
+                                margin-right: 5%;
+                                margin-top: -10%;
+                            }
+
+                            .SpanLanguageStyle {
+                                color: #134b0a;
+                            }
+                        }
+                    </style>
+                    <div id="PanelHearderImage" class="DivPositionTextSininMasterFaStyle text-center">
+                        <a class="LblsinginMasterFaStyle" href="#" title="SingIn-SibeSalamat">ورود</a>
+                    </div>
+
+                    <div class=" DivPositionTextSelectLanguageMasterFaStyle">
+                        <%--<a class="LbllanguageMasterFaStyle text-center" href="#" title="Select-language-SibeSalamat"><span class="caret SpanLanguageStyle"></span>تغیر زبان</a>--%>
+                        <div class="dropdown LbllanguageMasterFaStyle">
+                            <p class="dropbtn ">تغیر زبان</p>
+                            <div class="dropdown-content">
+                                <a href="../../Index-Fa.aspx">فارسی</a>
+                                <a href="../../../../Index.aspx">انگلیسی</a>
+                            </div>
+                        </div>
+                        <style>
+                            .dropbtn {
+                                color: black;
+                                padding: 16px;
+                                font-size: 16px;
+                                border: none;
+                            }
+
+                                .dropbtn:hover {
+                                    color: black;
+                                    text-decoration: none;
+                                }
+
+                            .dropdown {
+                                position: relative;
+                                display: inline-block;
+                            }
+
+                            .dropdown-content {
+                                display: none;
+                                position: absolute;
+                                min-width: 160px;
+                                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                z-index: 1;
+                            }
+
+                                .dropdown-content a {
+                                    color: black;
+                                    padding: 12px 16px;
+                                    text-decoration: none;
+                                    display: block;
+                                }
+
+                                    .dropdown-content a:hover {
+                                        background-color: white;
+                                    }
+
+                            .dropdown:hover .dropdown-content {
+                                display: block;
+                            }
+
+                            .dropdown:hover .dropbtn {
+                            }
+                        </style>
+                        <img src="../../../../Resources/Master/Header/SelectLanguageImg.png" class="SelectLanguageImgMasterFaStyle" />
+                    </div>
+                    <div id="PanelHearderMenu" class="PanelHearderMenuMasterFaStyle">
+                        <ul class="nav nav-pills hidden-sm hidden-xs UlNavbarStyle pull-right">
+                            <li><a class="MenuLinkFontMasterFaStyle" href="../../../../Views/Fa/About-Us-Fa/AbouUs-Fa.aspx" title="SibeSalamat-About">ارتباط ما</a></li>
+                            <li><a class="MenuLinkFontMasterFaStyle" href="../../../../Views/Fa/About-Us-Fa/AbouUs-Fa.aspx" title="SibeSalamat-About">درباره ما</a></li>
+                            <li><a class="MenuLinkFontMasterFaStyle" href="../../../../Views/Fa/Ticket-Fa/Ticket-Fa.aspx" title="SibeSalamat-FreeQuote">ارسال تیکت</a></li>
+                            <li><a class="MenuLinkFontMasterFaStyle" href="../../../../Views/Fa/Hospitals-Fa/Hospitals-Fa.aspx" title="SibeSalamat-Blog">بیمارستان ها</a></li>
+                            <li><a class="MenuLinkFontMasterFaStyle" href="#" title="SibeSalamat-Patient">گزیده های شما</a></li>
+                            <li><a class="MenuLinkFontMasterFaStyle" href="#" title="SibeSalamat-Information">اطلاعات</a></li>
+                            <li><a class="MenuLinkFontMasterFaStyle" href="../../../../../Views/Fa/PopularPages-Fa/Pobular-Fa.aspx" title="SibeSalamat-Services">خدمات</a></li>
+                            <li><a class="MenuLinkFontMasterFaStyle" href="../../../../Views/Fa/Index-Fa.aspx" title="SibeSalamat-Index"><span class="glyphicon glyphicon-home LogoMenusInHeaderMasterFaStyle"></span>خانه</a></li>
+                        </ul>
+
+
+
+
+                        <div class="hidden-lg hidden-md MenuHambergerMasterFaStyle" onclick="myFunction(this);openNav(); lockScroll();">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+
+
+
+                        <div id="mySidenav" class="sidenav hidden-lg hidden-md">
+
+
+                            <br />
+                            <br />
+                            <a href="../../../../Views/Fa/Index-Fa.aspx" title="SibeSalamat-Index">خانه</a>
+                            <hr />
+                            <a href="../../../../../Views/Fa/PopularPages-Fa/Pobular-Fa.aspx" title="SibeSalamat-Services">خدمات</a>
+                            <hr />
+                            <a href="#" title="SibeSalamat-Information">اطلاعات</a>
+                            <hr />
+                            <a href="#" title="SibeSalamat-Patient">گزیده های شما</a>
+                            <hr />
+                            <a href="../../../../Views/Fa/Hospitals-Fa/Hospitals-Fa.aspx" title="SibeSalamat-Blog">بیمارستان ها</a>
+                            <hr />
+                            <a href="../../../../Views/Fa/Ticket-Fa/Ticket-Fa.aspx" title="SibeSalamat-FreeQuote">ارسال تیکت</a>
+                            <hr />
+                            <a href="../../../../Views/Fa/About-Us-Fa/AbouUs-Fa.aspx" title="SibeSalamat-About">درباره ما</a>
+                            <hr />
+                            <a href="../../../../Views/Fa/About-Us-Fa/AbouUs-Fa.aspx" title="SibeSalamat-About">ارتباط ما</a>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                                  
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <%-- #Social --%>
+            <%-- #Lg --%>
+
+            <%--<div class="row SocialNetworksLgMasterFaStyle hidden-xs hidden-sm">
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle1 ">
+                    </div>
+                </a>
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle2 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle3 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle4 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle5 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle6 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle7 ">
+                    </div>
+                </a>
+
+
+            </div>--%>
+
+            <%-- #Sm --%>
+            <%--     <div class="row SocialNetworksSmMasterFaStyle hidden-md hidden-xs hidden-lg">
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle1 ">
+                    </div>
+                </a>
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle2 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle3 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle4 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle5 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle6 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle7 ">
+                    </div>
+                </a>
+
+
+            </div>--%>
+
+
+            <%-- #Xs --%>
+            <%-- <div class="row SocialNetworksXsMasterFaStyle hidden-md hidden-sm hidden-lg">
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle1 ">
+                    </div>
+                </a>
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle2 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle3 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle4 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle5 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle6 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgMasterFaStyle7">
+                    </div>
+                </a>
+
+
+            </div>--%>
+
+
+
+
+
+
+            <div id="continear" class="row">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <%-- #Lg Foteer --%>
+
+            <div id="FooterLg" class="row FoteerMasterFaStyle text-right hidden-sm hidden-xs hidden-md">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 2%; margin-bottom: 10%;">
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right">
+                        <a class="TitrTextFoteerMasterFaStyle text-right">
+                            <p title="Address">ADDRESSES:</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">
+                            <address title="Address">Tabriz: Near by Nur Nejat hospital,</address>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">
+                            <address title="Address">Hafez street, Tabriz, Iran</address>
+                        </a>
+                        <br />
+                        <a class="TitrTextFoteerMasterFaStyle text-right">
+                            <p>CONTACT US:</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">
+                            <p title="Email">Email: info@tabrizhealthtourism.com</p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">
+                            <p title="Social">Whatsapp/Viber/Telegram/Skyp/Imo</p>
+                        </a>
+                        <a class="ZirTitrTextFoteerMasterFaStyle">
+                            <p title="Tell">Number: +98 914 739 2481</p>
+                        </a>
+                        <a class="ZirTitrTextFoteerMasterFaStyle">
+                            <p title="Tell">Office Number: +98 413 335 2656</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right" style="margin-top: 4.2%;">
+                        <a href="#" target="_blank">
+                            <p></p>
+                        </a>
+
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">اورتوپدی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">فوق تخصص اورتوپدی زانو و پروتز</a>
+                        <p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">روماتولژی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">گوش و حلق و بینی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">رینوپلاستی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">خون</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">جراحی داخلی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">جراحی توراکس</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">آنژیو پلاستی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">واریس</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">جراحی پلاستیک</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">ژنیوپلاستی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">زیبایی بینی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">توم توک</a><p title="OthersServices"></p>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right" style="margin-top: 4.2%;">
+                        <a href="#" target="_blank">
+                            <p></p>
+                        </a>
+
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">جراحی غیر پلاستیک</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">تزریق بوتاکس</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">لیپوساکشن</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">لیفت صورت</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">تزریق لب</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">پرکننده های پوستی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">متخصص زیبایی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">کاشت مو</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">داندانپزشکی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">ایمپلنت</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">روکش های دندانپزشکی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">جراحی چشم</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">لیفت چشم</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">ناباروری</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">باروری</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">قویت سینه</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">جراحی کاهش وزن</a><p title="OthersServices"></p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right">
+                        <a class="TitrTextFoteerMasterFaStyle">
+                            <p>عمل جراحیها</p>
+                        </a>
+                        <br />
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">قلب وعروق</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">اعصاب وروان</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">داخلی مغزو اعصاب</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">جراحی مغز و اعصاب</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">عفونی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">دیابت</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">طب فیزیک توانبخشی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">طب هسته ای</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">داخلی ریه</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">جراحی کلیه</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">داخلی کلیه</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">جراحی کبد</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">داخلی کبد</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">داخلی غدد</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">شیمی درمانی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">آنکولوژی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMasterFaStyle">لیفت باسن</a><p title="OthersServices"></p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <%-- #Md Foteer --%>
+
+
+            <div id="FooterMd" class="row FoteerMdMasterFaStyle text-center hidden-sm hidden-xs hidden-lg">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 2%; margin-bottom: 10%;">
+
+
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-right" style="margin-top: 6%;">
+                        <a href="#" target="_blank">
+                            <p></p>
+                        </a>
+
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">جراحی کلیه</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">داخلی کلیه</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">جراحی کبد</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">داخلی کبد</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">داخلی غدد</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">شیمی درمانی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">آنکولوژی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">لیفت باسن</a><p title="OthersServices"></p>
+                        <a class="TitrTextFoteerMdMasterFaStyle text-right">
+                            <p title="Address">ADDRESSES:</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">
+                            <address title="Address">Tabriz: Near by Nur Nejat hospital,</address>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">
+                            <address title="Address">Hafez street, Tabriz, Iran</address>
+                        </a>
+                        <br />
+                        <a class="TitrTextFoteerMdMasterFaStyle text-right">
+                            <p>CONTACT US:</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">
+                            <p title="Email">Email: info@tabrizhealthtourism.com</p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">
+                            <p title="Social">Whatsapp/Viber/Telegram/Skyp/Imo</p>
+                        </a>
+                        <a class="ZirTitrTextFoteerMdMasterFaStyle">
+                            <p title="Tell">Number: +98 914 739 2481</p>
+                        </a>
+                        <a class="ZirTitrTextFoteerMdMasterFaStyle">
+                            <p title="Tell">Office Number: +98 413 335 2656</p>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-right" style="margin-top: 6%;">
+                        <a href="#" target="_blank">
+                            <p></p>
+                        </a>
+
+
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">متخصص زیبایی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">کاشت مو</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">داندانپزشکی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">ایمپلنت</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">روکش های دندانپزشکی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">جراحی چشم</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">لیفت چشم</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">ناباروری</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">باروری</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">قویت سینه</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">جراحی کاهش وزن</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">قلب وعروق</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">اعصاب وروان</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">داخلی مغزو اعصاب</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">جراحی مغز و اعصاب</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">عفونی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">دیابت</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">طب فیزیک توانبخشی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">طب هسته ای</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">داخلی ریه</a><p title="OthersServices"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-right">
+                        <a class="TitrTextFoteerMdMasterFaStyle">
+                            <p>PROCEDURES</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">اورتوپدی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">فوق تخصص اورتوپدی زانو و پروتز</a>
+                        <p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">روماتولژی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">گوش و حلق و بینی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">رینوپلاستی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">خون</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">جراحی داخلی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">جراحی توراکس</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">آنژیو پلاستی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">واریس</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">جراحی پلاستیک</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">ژنیوپلاستی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">زیبایی بینی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">توم توک</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">جراحی غیر پلاستیک</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">تزریق بوتاکس</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">لیپوساکشن</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">لیفت صورت</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">تزریق لب</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdMasterFaStyle">پرکننده های پوستی</a><p title="OthersServices"></p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+
+            <%-- #Sm Foteer --%>
+
+
+
+            <div id="FooterSm" class="row FoteerSmMasterFaStyle text-right hidden-lg hidden-md hidden-xs">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 2%; margin-bottom: 10%;">
+
+                    <div class="col-lg-6 col-md6 col-sm-6 col-xs-6 text-right" style="margin-top: 6%;">
+                        <a href="#" target="_blank">
+                            <p></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">جراحی کاهش وزن</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">قلب وعروق</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">اعصاب وروان</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">داخلی مغزو اعصاب</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">جراحی مغز و اعصاب</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">عفونی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">دیابت</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">طب فیزیک توانبخشی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">طب هسته ای</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">داخلی ریه</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">جراحی کلیه</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">داخلی کلیه</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">جراحی کبد</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">داخلی کبد</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">داخلی غدد</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">شیمی درمانی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">آنکولوژی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">لیفت باسن</a><p title="OthersServices"></p>
+                        <br />
+                        <br />
+
+                        <a class="TitrTextFoteerSmMasterFaStyle text-right">
+                            <p title="Address">ADDRESSES:</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">
+                            <address title="Address">Tabriz: Near by Nur Nejat hospital,</address>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">
+                            <address title="Address">Hafez street, Tabriz, Iran</address>
+                        </a>
+                        <br />
+                        <a class="TitrTextFoteerSmMasterFaStyle text-right">
+                            <p>CONTACT US:</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">
+                            <p title="Email">Email: info@tabrizhealthtourism.com</p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">
+                            <p title="Social">Whatsapp/Viber/Telegram/Skyp/Imo</p>
+                        </a>
+                        <a class="ZirTitrTextFoteerSmMasterFaStyle">
+                            <p title="Tell">Number: +98 914 739 2481</p>
+                        </a>
+                        <a class="ZirTitrTextFoteerSmMasterFaStyle">
+                            <p title="Tell">Office Number: +98 413 335 2656</p>
+                        </a>
+
+                    </div>
+                    <div class="col-lg-6 col-md6 col-sm-6 col-xs-6 text-right">
+                        <a class="TitrTextFoteerSmMasterFaStyle">
+                            <p>PROCEDURES</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">اورتوپدی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">فوق تخصص اورتوپدی زانو و پروتز</a>
+                        <p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">روماتولژی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">گوش و حلق و بینی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">رینوپلاستی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">خون</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">جراحی داخلی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaSStyle">جراحی توراکس</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">آنژیو پلاستی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">واریس</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">جراحی پلاستیک</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">ژنیوپلاستی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">زیبایی بینی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">توم توک</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">جراحی غیر پلاستیک</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">تزریق بوتاکس</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">لیپوساکشن</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">لیفت صورت</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">تزریق لب</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">پرکننده های پوستی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">پرکننده های پوستی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">متخصص زیبایی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">کاشت مو</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">داندانپزشکی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">ایمپلنت</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">روکش های دندانپزشکی</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">جراحی چشم</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">لیفت چشم</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">ناباروری</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">باروری</a><p title="OthersServices"></p>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmMasterFaStyle">قویت سینه</a><p title="OthersServices"></p>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+            <%-- #Xs Foteer--%>
+            <div id="FooterXs" class="row FoteerXsMasterFaStyle text-center hidden-lg hidden-md hidden-sm">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 2%; margin-bottom: 5%;">
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-right">
+
+                        <a class="TitrTextFoteerXsMasterFaStyle text-right">
+                            <p title="Address">ADDRESSES:</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerXsMasterFaStyle">
+                            <address title="Address">Tabriz: Near by Nur Nejat hospital,</address>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerXsMasterFaStyle">
+                            <address title="Address">Hafez street, Tabriz, Iran</address>
+                        </a>
+                        <br />
+                        <a class="TitrTextFoteerXsMasterFaStyle text-right">
+                            <p>CONTACT US:</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerXsMasterFaStyle">
+                            <p title="Email">Email: info@tabrizhealthtourism.com</p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerXsMasterFaStyle">
+                            <p title="Social">Whatsapp/Viber/Telegram/Skyp/Imo</p>
+                        </a>
+                        <a class="ZirTitrTextFoteerXsMasterFaStyle">
+                            <p title="Tell">Number: +98 914 739 2481</p>
+                        </a>
+                        <a class="ZirTitrTextFoteerXsMasterFaStyle">
+                            <p title="Tell">Office Number: +98 413 335 2656</p>
+                        </a>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <%--<button onclick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-menu-up"></span></button>--%>
+        </div>
+    </form>
+</body>
+</html>

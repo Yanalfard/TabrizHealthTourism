@@ -1,0 +1,1328 @@
+﻿#header {
+    margin-top: 10px;
+}
+/*Fixed menu scroll */
+
+.fixedPosition {
+    position: fixed;
+}
+
+.fixedPositionDisabel {
+    position: static;
+}
+
+/**/
+.LogoMenusInHeaderMasterFaStyle {
+    color: green;
+    margin-right: 0.3rem;
+}
+
+.UlNavbarMasterFaStyle {
+    padding-left: 3%;
+}
+
+.MenuLinkFontMasterFaStyle {
+    color: black;
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-family: W_yekan;
+}
+
+    .MenuLinkFontMasterFaStyle:hover {
+        color: black;
+        font-size: 1.5vw;
+        text-decoration: none;
+        font-family: W_yekan;
+    }
+
+.ImgheaderlogoRowOneMasterFaStyle {
+    width: 100%;
+}
+
+
+
+.bar1, .bar2, .bar3 {
+    width: 21px;
+    height: 4px;
+    background-color: #333;
+    margin-top: 5px;
+    transition: 0.4s;
+}
+
+.MenuHambergerMasterFaStyle {
+    padding-left: 3%;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6.5px,6.5px);
+    transform: rotate(-45deg) translate(-6.5px, 6.5px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6.5px, 6.5px);
+    transform: rotate(45deg) translate(-6.5px, -6.5px);
+}
+
+
+
+.sidenav {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    background-color: rgba(255,255,255,1);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align: center;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: black;
+        display: block;
+        transition: 0.3s;
+        font-family: W_yekan;
+        font-weight: bold;
+    }
+
+        .sidenav a:hover {
+            color: #282828;
+            font-family: W_yekan;
+        }
+
+
+
+
+
+
+.SocialNetworksLgMasterFaStyle {
+    position: fixed;
+    margin-left: 95%;
+    margin-top: 5%;
+    z-index: 3;
+    height: 100%;
+    padding-right: 10%;
+}
+
+.SocialNetworksImgMasterFaStyle1 {
+    height: 50px;
+    width: 50px;
+    background-image: url(../Resources/SocialNetworks/SocialNetworks11.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+    .SocialNetworksImgMasterFaStyle1:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../Resources/SocialNetworks/SocialNetworks1.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgMasterFaStyle2 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../Resources/SocialNetworks/SocialNetworks22.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+    .SocialNetworksImgMasterFaStyle2:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../Resources/SocialNetworks/SocialNetworks2.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgMasterFaStyle3 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../Resources/SocialNetworks/SocialNetworks33.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+    .SocialNetworksImgMasterFaStyle3:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../Resources/SocialNetworks/SocialNetworks3.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgMasterFaStyle4 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../Resources/SocialNetworks/SocialNetworks44.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+    .SocialNetworksImgMasterFaStyle4:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../Resources/SocialNetworks/SocialNetworks4.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgMasterFaStyle5 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../Resources/SocialNetworks/SocialNetworks55.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+    .SocialNetworksImgMasterFaStyle5:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../Resources/SocialNetworks/SocialNetworks5.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 0.5;
+    }
+
+.SocialNetworksImgMasterFaStyle6 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../Resources/SocialNetworks/SocialNetworks66.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+    .SocialNetworksImgMasterFaStyle6:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../Resources/SocialNetworks/SocialNetworks6.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgMasterFaStyle7 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../Resources/SocialNetworks/SocialNetworks77.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+    .SocialNetworksImgMasterFaStyle7:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../Resources/SocialNetworks/SocialNetworks7.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+
+.SocialNetworksImgMasterFaStyle7 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../Resources/SocialNetworks/SocialNetworks77.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+    .SocialNetworksImgMasterFaStyle7:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../Resources/SocialNetworks/SocialNetworks7.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+
+
+.FoathearImgBackgroundMasterFaStyle {
+    width: 100%;
+}
+
+.PFoaterTitrMasterFaStyle {
+    color: black;
+    font-family: W_yekan;
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+
+.PFoaterFontsMasterFaStyle {
+    color: black;
+    font-family: W_yekan;
+    font-size: 0.9vw;
+}
+
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    background-color: #0b8e36;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 60px;
+}
+
+    #myBtn:hover {
+        background-color: #555;
+    }
+
+
+
+
+
+
+
+
+
+/*#Sm MasterFaStyle*/
+
+.SocialNetworksSmMasterFaStyle {
+    /*width:5%;*/
+    position: fixed;
+    margin-left: 92%;
+    margin-top: 5%;
+    z-index: 3;
+    height: 100%;
+    /*width: 50px;*/
+    padding-right: 10%;
+}
+
+
+/*#Xs MasterFaStyle*/
+
+.SocialNetworksXsMasterFaStyle {
+    /*width:5%;*/
+    position: fixed;
+    margin-left: 88%;
+    margin-top: 5%;
+    z-index: 3;
+    height: 100%;
+    /*width: 50px;*/
+    padding-right: 10%;
+}
+
+
+
+
+/*#Sinin and Language*/
+
+
+/*@media screen and (min-width: 100px) {
+
+    .SinginMasterFaStyle {
+        position: absolute;
+        padding-left: 83%;
+        margin-top: -8%;
+    }
+
+    .SelectlanguageMasterFaStyle {
+        position: absolute;
+        margin-left: 89%;
+        margin-top: -8%;
+    }
+}
+
+@media screen and (min-width: 250px) {
+
+    .SinginMasterFaStyle {
+        position: absolute;
+        padding-left: 83%;
+        margin-top: -7.3%;
+    }
+
+    .SelectlanguageMasterFaStyle {
+        position: absolute;
+        margin-left: 89%;
+        margin-top: -7.3%;
+    }
+}
+
+@media screen and (min-width: 400px) {
+
+    .SinginMasterFaStyle {
+        position: absolute;
+        padding-left: 83%;
+        margin-top: -6%;
+    }
+
+    .SelectlanguageMasterFaStyle {
+        position: absolute;
+        margin-left: 89%;
+        margin-top: -6%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .SinginMasterFaStyle {
+        position: absolute;
+        padding-left: 83%;
+        margin-top: -4.7%;
+    }
+
+    .SelectlanguageMasterFaStyle {
+        position: absolute;
+        margin-left: 89%;
+        margin-top: -4.7%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    .SinginMasterFaStyle {
+        position: absolute;
+        padding-left: 83%;
+        margin-top: -4.2%;
+    }
+
+    .SelectlanguageMasterFaStyle {
+        position: absolute;
+        margin-left: 89%;
+        margin-top: -4.2%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    .SinginMasterFaStyle {
+        position: absolute;
+        padding-left: 83%;
+        margin-top: -4%;
+    }
+
+    .SelectlanguageMasterFaStyle {
+        position: absolute;
+        margin-left: 89%;
+        margin-top: -4%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+
+    .SinginMasterFaStyle {
+        position: absolute;
+        padding-left: 83%;
+        margin-top: -3.8%;
+    }
+
+    .SelectlanguageMasterFaStyle {
+        position: absolute;
+        margin-left: 89%;
+        margin-top: -3.8%;
+    }
+}*/
+
+
+/**/
+
+
+
+/*Sinin and Select Language*/
+
+.DivPositionTextSininAndSelectLanguageMasterFaStyle {
+}
+
+
+.LblsinginMasterFaStyle {
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: W_yekan;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.LbllanguageMasterFaStyle {
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: W_yekan;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/*@media screen and (min-width: 100px) {
+
+    .LblsinginMasterFaStyle {
+        color: black;
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: W_yekan;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblsinginMasterFaStyle:hover {
+            color: black;
+            font-size: 0.8em;
+            text-decoration: none;
+            font-family: W_yekan;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageMasterFaStyle {
+        color: black;
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: W_yekan;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageMasterFaStyle:hover {
+            color: black;
+            font-size: 0.8em;
+            text-decoration: none;
+            font-family: W_yekan;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextSininMasterFaStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 10%;
+    }
+
+    .DivPositionTextSelectLanguageMasterFaStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -9.5%;
+        margin-left: 67%;
+        width: 30%;
+    }
+
+    .SelectLanguageImgMasterFaStyle {
+        width: 15%;
+    }
+}
+
+@media screen and (min-width: 400px) {
+
+    .LblsinginMasterFaStyle {
+        color: black;
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: W_yekan;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblsinginMasterFaStyle:hover {
+            color: black;
+            font-size: 0.8em;
+            text-decoration: none;
+            font-family: W_yekan;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageMasterFaStyle {
+        color: black;
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: W_yekan;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageMasterFaStyle:hover {
+            color: black;
+            font-size: 0.8em;
+            text-decoration: none;
+            font-family: W_yekan;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextSininMasterFaStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -7.5%;
+        margin-left: 10%;
+    }
+
+    .DivPositionTextSelectLanguageMasterFaStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -7.5%;
+        margin-left: 67%;
+        width: 30%;
+    }
+
+    .SelectLanguageImgMasterFaStyle {
+        width: 12%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .LblsinginMasterFaStyle {
+        color: black;
+        font-size: 1.1em;
+        text-decoration: none;
+        font-family: W_yekan;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblsinginMasterFaStyle:hover {
+            color: black;
+            font-size: 1.1em;
+            text-decoration: none;
+            font-family: W_yekan;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageMasterFaStyle {
+        color: black;
+        font-size: 1.1em;
+        text-decoration: none;
+        font-family: W_yekan;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageMasterFaStyle:hover {
+            color: black;
+            font-size: 1.1em;
+            text-decoration: none;
+            font-family: W_yekan;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextSininMasterFaStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -6%;
+        margin-left: 65%;
+        width: 15%;
+    }
+
+    .DivPositionTextSelectLanguageMasterFaStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -6%;
+        margin-left: 74%;
+        width: 26%;
+    }
+
+    .SelectLanguageImgMasterFaStyle {
+        width: 15%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    .LblsinginMasterFaStyle {
+        color: black;
+        font-size: 1.4em;
+        text-decoration: none;
+        font-family: W_yekan;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblsinginMasterFaStyle:hover {
+            color: black;
+            font-size: 1.4em;
+            text-decoration: none;
+            font-family: W_yekan;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageMasterFaStyle {
+        color: black;
+        font-size: 1.3em;
+        text-decoration: none;
+        font-family: W_yekan;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageMasterFaStyle:hover {
+            color: black;
+            font-size: 1.3em;
+            text-decoration: none;
+            font-family: W_yekan;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextSininMasterFaStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -5%;
+        margin-left: 67%;
+        width: 15%;
+    }
+
+    .DivPositionTextSelectLanguageMasterFaStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -5%;
+        margin-left: 75%;
+        width: 24%;
+    }
+
+    .SelectLanguageImgMasterFaStyle {
+        width: 16%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    .LblsinginMasterFaStyle {
+        color: black;
+        font-size: 1.4em;
+        text-decoration: none;
+        font-family: W_yekan;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblsinginMasterFaStyle:hover {
+            color: black;
+            font-size: 1.4em;
+            text-decoration: none;
+            font-family: W_yekan;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageMasterFaStyle {
+        color: black;
+        font-size: 1.3em;
+        text-decoration: none;
+        font-family: W_yekan;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageMasterFaStyle:hover {
+            color: black;
+            font-size: 1.3em;
+            text-decoration: none;
+            font-family: W_yekan;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextSininMasterFaStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -4.5%;
+        margin-right: 71%;
+        width: 15%;
+    }
+
+    .DivPositionTextSelectLanguageMasterFaStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -4.5%;
+        margin-right: 79%;
+        width: 21%;
+    }
+
+    .SelectLanguageImgMasterFaStyle {
+        width: 18%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    .LblsinginMasterFaStyle {
+        color: black;
+        font-size: 1.4em;
+        text-decoration: none;
+        font-family: W_yekan;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblsinginMasterFaStyle:hover {
+            color: black;
+            font-size: 1.4em;
+            text-decoration: none;
+            font-family: W_yekan;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageMasterFaStyle {
+        color: black;
+        font-size: 1.3em;
+        text-decoration: none;
+        font-family: W_yekan;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageMasterFaStyle:hover {
+            color: black;
+            font-size: 1.3em;
+            text-decoration: none;
+            font-family: W_yekan;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextSininMasterFaStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.7%;
+        margin-right: 75%;
+        width: 15%;
+    }
+
+    .DivPositionTextSelectLanguageMasterFaStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.8%;
+        margin-right: 82%;
+        width: 17%;
+    }
+
+    .SelectLanguageImgMasterFaStyle {
+    }
+}
+
+@media screen and (min-width: 1300px) {
+
+    .LblsinginMasterFaStyle {
+        color: black;
+        font-size: 1.5em;
+        text-decoration: underline;
+        font-family: W_yekan;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblsinginMasterFaStyle:hover {
+            color: black;
+            font-size: 1.5em;
+            text-decoration: underline;
+            font-family: W_yekan;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageMasterFaStyle {
+        color: black;
+        font-size: 1.5em;
+        text-decoration: underline;
+        font-family: W_yekan;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageMasterFaStyle:hover {
+            color: black;
+            font-size: 1.5em;
+            text-decoration: underline;
+            font-family: W_yekan;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextSininMasterFaStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.7%;
+        margin-right: 75%;
+        width: 15%;
+    }
+
+    .DivPositionTextSelectLanguageMasterFaStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.8%;
+        margin-right: 80%;
+        width: 15%;
+    }
+
+    .SelectLanguageImgMasterFaStyle {
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    .LblsinginMasterFaStyle {
+        color: black;
+        font-size: 1.5em;
+        text-decoration: underline;
+        font-family: W_yekan;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblsinginMasterFaStyle:hover {
+            color: black;
+            font-size: 1.5em;
+            text-decoration: underline;
+            font-family: W_yekan;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageMasterFaStyle {
+        color: black;
+        font-size: 1.5em;
+        text-decoration: underline;
+        font-family: W_yekan;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageMasterFaStyle:hover {
+            color: black;
+            font-size: 1.5em;
+            text-decoration: underline;
+            font-family: W_yekan;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextSininMasterFaStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.7%;
+        margin-right: 75%;
+        width: 15%;
+    }
+
+    .DivPositionTextSelectLanguageMasterFaStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.8%;
+        margin-right: 80%;
+        width: 15%;
+    }
+
+    .SelectLanguageImgMasterFaStyle {
+    }
+}*/
+
+
+
+
+/*#Social*/
+
+.SocialNetworksLgMasterFaStyle {
+    position: fixed;
+    margin-left: 95%;
+    margin-top: 5%;
+    z-index: 3;
+    height: 100%;
+    padding-right: 10%;
+}
+
+.SocialNetworksImgMasterFaStyle1 {
+    height: 50px;
+    width: 50px;
+    background-image: url(../../Resources/SocialNetworks/SocialNetworks11.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    opacity: 0.2;
+}
+
+    .SocialNetworksImgMasterFaStyle1:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../../Resources/SocialNetworks/SocialNetworks1.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgMasterFaStyle2 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../../Resources/SocialNetworks/SocialNetworks22.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.2;
+}
+
+    .SocialNetworksImgMasterFaStyle2:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../../Resources/SocialNetworks/SocialNetworks2.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgMasterFaStyle3 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../../Resources/SocialNetworks/SocialNetworks33.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.2;
+}
+
+    .SocialNetworksImgMasterFaStyle3:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../../Resources/SocialNetworks/SocialNetworks3.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgMasterFaStyle4 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../../Resources/SocialNetworks/SocialNetworks44.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.2;
+}
+
+    .SocialNetworksImgMasterFaStyle4:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../../Resources/SocialNetworks/SocialNetworks4.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgMasterFaStyle5 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../../Resources/SocialNetworks/SocialNetworks55.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.2;
+}
+
+    .SocialNetworksImgMasterFaStyle5:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../../Resources/SocialNetworks/SocialNetworks5.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgMasterFaStyle6 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../../Resources/SocialNetworks/SocialNetworks66.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.2;
+}
+
+    .SocialNetworksImgMasterFaStyle6:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../../Resources/SocialNetworks/SocialNetworks6.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+.SocialNetworksImgMasterFaStyle7 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../../Resources/SocialNetworks/SocialNetworks77.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.2;
+}
+
+    .SocialNetworksImgMasterFaStyle7:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../../Resources/SocialNetworks/SocialNetworks7.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+
+.SocialNetworksImgMasterFaStyle7 {
+    margin-top: 10%;
+    height: 50px;
+    width: 50px;
+    background-image: url(../../Resources/SocialNetworks/SocialNetworks77.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+    opacity: 0.2;
+}
+
+    .SocialNetworksImgMasterFaStyle7:hover {
+        height: 50px;
+        width: 50px;
+        background-image: url(../../Resources/SocialNetworks/SocialNetworks7.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        transition: 1s;
+        opacity: 1;
+    }
+
+
+/*#Footer Lg*/
+.FoteerMasterFaStyle {
+    background-color: rgba(237,237,237,1);
+    padding: 0% 10% 0%;
+}
+
+.TitrTextFoteerMasterFaStyle {
+    color: black;
+    font-size: 1.3em;
+    font-family: W_yekan;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .TitrTextFoteerMasterFaStyle:hover {
+        color: black;
+        font-size: 1.3em;
+        font-family: W_yekan;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+.ZirTitrTextFoteerMasterFaStyle {
+    color: rgba(0,0,0,0.8);
+    font-size: 1em;
+    font-family: W_yekan;
+    text-decoration: none;
+}
+
+    .ZirTitrTextFoteerMasterFaStyle:hover {
+        color: rgba(0,0,0,0.8);
+        font-size: 1em;
+        font-family: W_yekan;
+        text-decoration: none;
+    }
+
+/*#Md Foteer */
+.FoteerMdMasterFaStyle {
+    background-color: rgba(237,237,237,1);
+    padding: 0% 10% 0%;
+}
+
+.TitrTextFoteerMdMasterFaStyle {
+    color: black;
+    font-size: 1.3em;
+    font-family: W_yekan;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .TitrTextFoteerMdMasterFaStyle:hover {
+        color: black;
+        font-size: 1.3em;
+        font-family: W_yekan;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+.ZirTitrTextFoteerMdMasterFaStyle {
+    color: rgba(0,0,0,0.8);
+    font-size: 1em;
+    font-family: W_yekan;
+    text-decoration: none;
+}
+
+    .ZirTitrTextFoteerMdMasterFaStyle:hover {
+        color: rgba(0,0,0,0.8);
+        font-size: 1em;
+        font-family: W_yekan;
+        text-decoration: none;
+    }
+
+
+/*#Sm Foteer*/
+
+.FoteerSmMasterFaStyle {
+    background-color: rgba(237,237,237,1);
+    padding: 0% 0% 0% 10%;
+}
+
+.TitrTextFoteerSmMasterFaStyle {
+    color: black;
+    font-size: 1.3em;
+    font-family: W_yekan;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .TitrTextFoteerSmMasterFaStyle:hover {
+        color: black;
+        font-size: 1.3em;
+        font-family: W_yekan;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+.ZirTitrTextFoteerSmMasterFaStyle {
+    color: rgba(0,0,0,0.8);
+    font-size: 1.1em;
+    font-family: W_yekan;
+    text-decoration: none;
+}
+
+    .ZirTitrTextFoteerSmMasterFaStyle:hover {
+        color: rgba(0,0,0,0.8);
+        font-size: 1.1em;
+        font-family: W_yekan;
+        text-decoration: none;
+    }
+
+
+/*#Xs Foteer*/
+
+.FoteerXsMasterFaStyle {
+    background-color: rgba(237,237,237,1);
+    padding: 0% 0% 0% 5%;
+}
+
+.TitrTextFoteerXsMasterFaStyle {
+    color: black;
+    font-size: 1.2em;
+    font-family: W_yekan;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .TitrTextFoteerXsMasterFaStyle:hover {
+        color: black;
+        font-size: 1.2em;
+        font-family: W_yekan;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+.ZirTitrTextFoteerXsMasterFaStyle {
+    color: rgba(0,0,0,0.8);
+    font-size: 1em;
+    font-family: W_yekan;
+    text-decoration: none;
+}
+
+    .ZirTitrTextFoteerXsMasterFaStyle:hover {
+        color: rgba(0,0,0,0.8);
+        font-size: 1em;
+        font-family: W_yekan;
+        text-decoration: none;
+    }

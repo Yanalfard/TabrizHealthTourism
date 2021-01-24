@@ -1,0 +1,525 @@
+﻿.DivAslyAllProfile {
+    margin-top: 1%;
+}
+
+.ImgheaderlogoRowOneStyle {
+    width: 100%;
+}
+
+
+@media screen and (min-width: 100px) {
+
+    .LblLogoutStyle {
+        color: black;
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblLogoutStyle:hover {
+            color: black;
+            font-size: 0.8em;
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageStyle {
+        color: black;
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: Arial;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageStyle:hover {
+            color: black;
+            font-size: 0.8em;
+            text-decoration: none;
+            font-family: Arial;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextLogoutStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -6%;
+        margin-left: 10%;
+    }
+
+    .DivPositionTextSelectLanguageStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -6%;
+        margin-left: 67%;
+        width: 30%;
+    }
+
+    .SelectLanguageImgStyle {
+        width: 15%;
+    }
+}
+
+@media screen and (min-width: 400px) {
+
+    .LblLogoutStyle {
+        color: black;
+        font-size: 1em;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblLogoutStyle:hover {
+            color: black;
+            font-size: 1em;
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageStyle {
+        color: black;
+        font-size: 0.9em;
+        text-decoration: none;
+        font-family: Arial;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageStyle:hover {
+            color: black;
+            font-size: 0.9em;
+            text-decoration: none;
+            font-family: Arial;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextLogoutStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -5%;
+        margin-left: 10%;
+    }
+
+    .DivPositionTextSelectLanguageStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -5%;
+        margin-left: 67%;
+        width: 31%;
+    }
+
+    .SelectLanguageImgStyle {
+        width: 12%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .LblLogoutStyle {
+        color: black;
+        font-size: 1.1em;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblLogoutStyle:hover {
+            color: black;
+            font-size: 1.1em;
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageStyle {
+        color: black;
+        font-size: 1.1em;
+        text-decoration: none;
+        font-family: Arial;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageStyle:hover {
+            color: black;
+            font-size: 1.1em;
+            text-decoration: none;
+            font-family: Arial;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextLogoutStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -5%;
+        margin-left: 60%;
+        width: 10%;
+    }
+
+    .DivPositionTextSelectLanguageStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -5%;
+        margin-left: 70%;
+        width: 30%;
+    }
+
+    .SelectLanguageImgStyle {
+        width: 15%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    .LblLogoutStyle {
+        color: black;
+        font-size: 1.4em;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblLogoutStyle:hover {
+            color: black;
+            font-size: 1.4em;
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageStyle {
+        color: black;
+        font-size: 1.3em;
+        text-decoration: none;
+        font-family: Arial;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageStyle:hover {
+            color: black;
+            font-size: 1.3em;
+            text-decoration: none;
+            font-family: Arial;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextLogoutStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -5%;
+        margin-left: 65%;
+        width: 10%;
+    }
+
+    .DivPositionTextSelectLanguageStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -5%;
+        margin-left: 76%;
+        width: 24%;
+    }
+
+    .SelectLanguageImgStyle {
+        width: 16%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    .LblLogoutStyle {
+        color: black;
+        font-size: 1.4em;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblLogoutStyle:hover {
+            color: black;
+            font-size: 1.4em;
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageStyle {
+        color: black;
+        font-size: 1.3em;
+        text-decoration: none;
+        font-family: Arial;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageStyle:hover {
+            color: black;
+            font-size: 1.3em;
+            text-decoration: none;
+            font-family: Arial;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextLogoutStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -4.5%;
+        margin-left: 70%;
+        width: 9%;
+    }
+
+    .DivPositionTextSelectLanguageStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -4.5%;
+        margin-left: 79%;
+        width: 21%;
+    }
+
+    .SelectLanguageImgStyle {
+        width: 18%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    .LblLogoutStyle {
+        color: black;
+        font-size: 1.4em;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblLogoutStyle:hover {
+            color: black;
+            font-size: 1.4em;
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageStyle {
+        color: black;
+        font-size: 1.3em;
+        text-decoration: none;
+        font-family: Arial;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageStyle:hover {
+            color: black;
+            font-size: 1.3em;
+            text-decoration: none;
+            font-family: Arial;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextLogoutStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.7%;
+        margin-left: 74%;
+        width: 7%;
+    }
+
+    .DivPositionTextSelectLanguageStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.8%;
+        margin-left: 82%;
+        width: 17%;
+    }
+
+    .SelectLanguageImgStyle {
+    }
+}
+
+@media screen and (min-width: 1300px) {
+
+    .LblLogoutStyle {
+        color: black;
+        font-size: 1.4em;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblLogoutStyle:hover {
+            color: black;
+            font-size: 1.4em;
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageStyle {
+        color: black;
+        font-size: 1.4em;
+        text-decoration: none;
+        font-family: Arial;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageStyle:hover {
+            color: black;
+            font-size: 1.4em;
+            text-decoration: none;
+            font-family: Arial;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextLogoutStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.7%;
+        margin-left: 72%;
+        width: 7%;
+    }
+
+    .DivPositionTextSelectLanguageStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.8%;
+        margin-left: 80%;
+        width: 15%;
+    }
+
+    .SelectLanguageImgStyle {
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    .LblLogoutStyle {
+        color: black;
+        font-size: 1.5em;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .LblLogoutStyle:hover {
+            color: black;
+            font-size: 1.5em;
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    .LbllanguageStyle {
+        color: black;
+        font-size: 1.5em;
+        text-decoration: none;
+        font-family: Arial;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .LbllanguageStyle:hover {
+            color: black;
+            font-size: 1.5em;
+            text-decoration: none;
+            font-family: Arial;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    .DivPositionTextLogoutStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.7%;
+        margin-left: 73%;
+        width: 5.5%;
+    }
+
+    .DivPositionTextSelectLanguageStyle {
+        background-color: white;
+        height: 50px;
+        position: absolute;
+        margin-top: -3.8%;
+        margin-left: 80%;
+        width: 15%;
+    }
+
+    .SelectLanguageImgStyle {
+    }
+}
+
+
+
+
+.ProfileImgLeftStyle {
+    width: 8%;
+    position: absolute;
+    margin-top: 10%;
+    z-index: 1;
+}
+
+.ProfileImgRightStyle {
+    width: 8%;
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 92%;
+    z-index: 1;
+}

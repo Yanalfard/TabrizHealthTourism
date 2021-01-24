@@ -1,0 +1,609 @@
+﻿.PanelDentistryStyle {
+}
+
+.ImgHeaderDentistryStyle {
+    width: 100%;
+    transform: scaleX(-1)
+}
+
+.DivVideoAndTextDentistryStyle {
+    margin-top: 5%;
+}
+
+.VideoDentistryStyle {
+    width: 100%;
+}
+
+.TitrTextVideoDentistryStyle {
+    font-family: W_yekan;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoDentistryStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoDentistryStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.SliderDivTextDentistryStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 5%;
+}
+
+.SliderTitrDentistryStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextDentistryStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-right: 5%;
+}
+
+.SliderZirTitrDentistryStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionDentistryTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-right: 5.5%;
+}
+
+.SliderDescriptionDentistryTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnDentistrySingInStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-right: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnDentistrySingInStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-right: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnDentistryStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnDentistryStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextDentistryStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextDentistryStyle {
+    font-family: W_yekan;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.DescaptirionOrginalDentistryStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneDentistryStyle {
+}
+
+.Pic3DentistryRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOneDentistryStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneDentistryStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOneDentistryStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoDentistryStyle {
+    margin-top: 10%;
+}
+
+.Pic1DentistryRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoDentistryStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoDentistryStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoDentistryStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowThreeDentistryStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2DentistryRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreeDentistryStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeDentistryStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreeDentistryStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+/*#Sm*/
+.PanelDentistrySmStyle {
+}
+
+.ImgHeaderDentistrySmStyle {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.SliderDivTextDentistrySmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 5%;
+}
+
+.SliderTitrDentistrySmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextDentistrySmStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-right: 5%;
+}
+
+.SliderZirTitrDentistrySmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionDentistryTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-right: 5.5%;
+}
+
+.SliderDescriptionDentistryTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnDentistrySingInSmStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-right: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnDentistrySingInSmStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-right: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnDentistrySmStyle {
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+    .TextBtnDentistrySmStyle:hover {
+        color: white;
+        font-size: 2vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextDentistrySmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextDentistrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.7vw;
+    color: black;
+}
+
+.DivVideoAndTextDentistrySmStyle {
+    margin-top: 5%;
+}
+
+.VideoDentistrySmStyle {
+    width: 100%;
+}
+
+.DivZirVideoDentistrySmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoDentistrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoDentistrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalDentistrySmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneDentistrySmStyle {
+}
+
+.Pic3DentistryRowOneTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneDentistrySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneDentistrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneDentistrySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneDentistrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowTwoDentistrySmStyle {
+    margin-top: 10%;
+}
+
+.Pic1DentistryRowTwoTreatmentSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoDentistrySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoDentistrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoDentistrySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoDentistrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowThreeDentistrySmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2DentistryRowThreeTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeDentistrySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeDentistrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeDentistrySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeDentistrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+/* #Xs*/
+
+
+.PanelDentistryXsStyle {
+}
+
+.ImgHeaderDentistryXsStyle {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.SliderDivTextDentistryXsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 3%;
+}
+
+.SliderTitrDentistryXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextDentistryXsStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-right: 3%;
+}
+
+.SliderZirTitrDentistryXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionDentistryTitrXsStyle {
+    position: absolute;
+    margin-top: -19%;
+    margin-right: 3.5%;
+}
+
+.SliderDescriptionDentistryTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnDentistrySingInXsStyle {
+    position: absolute;
+    margin-top: -8%;
+    margin-right: 40%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnDentistrySingInXsStyle:hover {
+        position: absolute;
+        margin-top: -8%;
+        margin-right: 40%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnDentistryXsStyle {
+    color: white;
+    font-size: 2.7vw;
+    font-weight: bold;
+}
+
+    .TextBtnDentistryXsStyle:hover {
+        color: white;
+        font-size: 2.7vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextDentistryXsStyle {
+    margin-top: 3%;
+}
+
+.ZirHeadersImgTextDentistryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.3vw;
+    color: black;
+}
+
+.DivVideoAndTextDentistryXsStyle {
+    margin-top: 5%;
+}
+
+.VideoDentistryXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoDentistryXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoDentistryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoDentistryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionOrginalDentistryXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneDentistryXsStyle {
+}
+
+.Pic3DentistryTreatmentRowOneTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneDentistryXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneDentistryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneDentistryXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneDentistryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoDentistryXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1DentistryRowTwoTreatmentXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoDentistryXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoDentistryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoDentistryXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoDentistryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeDentistryXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2DentistryRowThreeTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeDentistryXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeDentistryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeDentistryXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeDentistryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}

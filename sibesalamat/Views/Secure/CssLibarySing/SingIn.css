@@ -1,0 +1,233 @@
+﻿.SliderSingIn1Style {
+    width: 65%;
+    margin-left: 20%;
+    margin-top: 4.9%;
+    opacity: 0;
+}
+
+.SliderSingIn2Style {
+    width: 80%;
+    position: absolute;
+    margin-top: 44%;
+    margin-left: -180%;
+    opacity: 0;
+}
+
+.SliderSingIn3Style {
+    width: 0%;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: -50%;
+    opacity: 0;
+}
+
+.SliderSingIn4Style {
+    width: 20%;
+    position: absolute;
+    margin-top: -70%;
+    margin-left: -25%;
+    opacity: 0;
+}
+
+.SliderSingIn5Style {
+    width: 0%;
+    position: absolute;
+    margin-top: 27%;
+    margin-left: -50%;
+    opacity: 0;
+}
+
+.DivSingInFormStyle {
+    border-radius: 10%;
+    background-color: rgba(0,135,183,0.2);
+    padding: 25% 5% 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-right: 25%;
+    margin-top: 10%;
+}
+
+.TxtSingInFormStyle {
+    width: 100%;
+    border-radius: 25px;
+    outline: none;
+    border: 0;
+    padding: 0;
+    height: 25px;
+    padding-left: 20px;
+    font-size: 1.5em;
+    height: 50px;
+}
+
+.DivMaeginRow2AfterStyle {
+    margin-top: 5%;
+}
+
+.CreateTextSingInStyle {
+    color: red;
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+    .CreateTextSingInStyle:hover {
+        color: red;
+        font-size: 1.7em;
+        font-weight: bold;
+        font-family: Arial;
+        text-decoration: none;
+    }
+
+.ForgetPassTextSingInStyle {
+    color: #00658f;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+    .ForgetPassTextSingInStyle:hover {
+        color: #00658f;
+        font-size: 1.1em;
+        font-weight: bold;
+        font-family: Arial;
+        text-decoration: none;
+    }
+
+.BtnSingInStyle {
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    width: 70%;
+    border: none;
+    font-family: Arial;
+    border-radius: 25px;
+}
+
+    .BtnSingInStyle:hover {
+        color: white;
+        font-size: 1.8em;
+        font-weight: bold;
+        width: 70%;
+        border: none;
+        font-family: Arial;
+        border-radius: 25px;
+    }
+
+
+.SliderSingIn1SmStyle {
+    width: 65%;
+    margin-left: 20%;
+    margin-top: 4.9%;
+    opacity: 0;
+}
+
+.SliderSingIn2SmStyle {
+    width: 80%;
+    position: absolute;
+    margin-top: 44%;
+    margin-left: -180%;
+    opacity: 0;
+}
+
+.SliderSingIn3SmStyle {
+    width: 0%;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: -50%;
+    opacity: 0;
+}
+
+.SliderSingIn4SmStyle {
+    width: 20%;
+    position: absolute;
+    margin-top: -70%;
+    margin-left: -25%;
+    opacity: 0;
+}
+
+.SliderSingIn5SmStyle {
+    width: 0%;
+    position: absolute;
+    margin-top: 27%;
+    margin-left: -50%;
+    opacity: 0;
+}
+
+.DivSingInFormSmStyle {
+    border-radius: 10%;
+    background-color: rgba(0,135,183,0.2);
+    padding: 10% 5% 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 10%;
+}
+
+.TxtSingInFormSmStyle {
+    width: 100%;
+    border-radius: 25px;
+    outline: none;
+    border: 0;
+    padding: 0;
+    height: 25px;
+    padding-left: 20px;
+    font-size: 1.5em;
+    height: 50px;
+}
+
+.DivMaeginRow2AfterSmStyle {
+    margin-top: 5%;
+}
+
+.CreateTextSingInSmStyle {
+    color: red;
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+    .CreateTextSingInSmStyle:hover {
+        color: red;
+        font-size: 1.7em;
+        font-weight: bold;
+        font-family: Arial;
+        text-decoration: none;
+    }
+
+.ForgetPassTextSingInSmStyle {
+    color: #00658f;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+    .ForgetPassTextSingInSmStyle:hover {
+        color: #00658f;
+        font-size: 1.1em;
+        font-weight: bold;
+        font-family: Arial;
+        text-decoration: none;
+    }
+
+.BtnSingInSmStyle {
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    width: 70%;
+    border: none;
+    font-family: Arial;
+    border-radius: 25px;
+}
+
+    .BtnSingInSmStyle:hover {
+        color: white;
+        font-size: 1.8em;
+        font-weight: bold;
+        width: 70%;
+        border: none;
+        font-family: Arial;
+        border-radius: 25px;
+    }

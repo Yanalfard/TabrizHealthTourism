@@ -1,0 +1,961 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{35155958-36A5-4647-8C22-489909E28F33}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sibesalamat</RootNamespace>
+    <AssemblyName>sibesalamat</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44317</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HashDetachmentV1">
+      <HintPath>..\..\..\..\Documents\DLL's\HashDetachmentV1.dll</HintPath>
+    </Reference>
+    <Reference Include="MathDetachmentV1">
+      <HintPath>..\..\..\..\Documents\DLL's\MathDetachmentV1.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Index.aspx" />
+    <Content Include="Resources\Abou-Us\Slider-About-Us1.png" />
+    <Content Include="Resources\Abou-Us\Slider-About-Us2.png" />
+    <Content Include="Resources\Abou-Us\Slider-About-Us3.png" />
+    <Content Include="Resources\Abou-Us\Slider-About-Us4.png" />
+    <Content Include="Resources\Abou-Us\Slider-About-Us5.png" />
+    <Content Include="Resources\Fa\Index\ImagePopularTreatments\ImagePopularTreatments1-1.png" />
+    <Content Include="Resources\Fa\Index\ImagePopularTreatments\ImagePopularTreatments1.png" />
+    <Content Include="Resources\Fa\Index\ImagePopularTreatments\ImagePopularTreatments2-2.png" />
+    <Content Include="Resources\Fa\Index\ImagePopularTreatments\ImagePopularTreatments2.png" />
+    <Content Include="Resources\Fa\Index\ImagePopularTreatments\ImagePopularTreatments3-3.png" />
+    <Content Include="Resources\Fa\Index\ImagePopularTreatments\ImagePopularTreatments3.png" />
+    <Content Include="Resources\Fa\Index\ImagePopularTreatments\ImagePopularTreatments4-4.png" />
+    <Content Include="Resources\Fa\Index\ImagePopularTreatments\ImagePopularTreatments4.png" />
+    <Content Include="Resources\Fa\Index\ImagePopularTreatments\ImagePopularTreatments5-5.png" />
+    <Content Include="Resources\Fa\Index\ImagePopularTreatments\ImagePopularTreatments5.png" />
+    <Content Include="Resources\Fa\Index\ImagePopularTreatments\ImagePopularTreatments6-6.png" />
+    <Content Include="Resources\Fa\Index\ImagePopularTreatments\ImagePopularTreatments6.png" />
+    <Content Include="Resources\Fa\Master\Header\headerlogoRowOneMasterFa.png" />
+    <Content Include="Resources\Hospitals\Hospitals-Amiralmomenin\SliderHospital-AmialmomeninImg.png" />
+    <Content Include="Resources\Hospitals\Hospitals-Shams\SliderHospital-ShamsImg.png" />
+    <Content Include="Resources\Hospitals\Hospitals-Valiasr\SliderHospital-ValiasrImg.png" />
+    <Content Include="Resources\Hospitals\Hospitals\Hospitil-Shams.png" />
+    <Content Include="Resources\Hospitals\Hospitals\Hospitil-Valiasr.png" />
+    <Content Include="Resources\Hospitals\Hospitals\SliderHospitils1.png" />
+    <Content Include="Resources\Hospitals\Hospitals\SliderHospitils2.png" />
+    <Content Include="Resources\Hospitals\Hospitals\SliderHospitils3.png" />
+    <Content Include="Resources\Hospitals\Hospitals\SliderHospitils4.png" />
+    <Content Include="Resources\Index\ImagePopularTreatments\ImagePopularTreatments1.png" />
+    <Content Include="Resources\Index\ImagePopularTreatments\ImagePopularTreatments2.png" />
+    <Content Include="Resources\Index\ImagePopularTreatments\ImagePopularTreatments3.png" />
+    <Content Include="Resources\Index\ImagePopularTreatments\ImagePopularTreatments4.png" />
+    <Content Include="Resources\Index\ImagePopularTreatments\ImagePopularTreatments5.png" />
+    <Content Include="Resources\Index\ImagePopularTreatments\ImagePopularTreatments6.png" />
+    <Content Include="Resources\Index\Slide\slide4.png" />
+    <Content Include="Resources\Index\VideoBackground\VideosImg11.png" />
+    <Content Include="Resources\Index\VideoBackground\VideosImg22.png" />
+    <Content Include="Resources\Index\VideoBackground\VideosImg33.png" />
+    <Content Include="Resources\Index\VideoBackground\VideosImg44.png" />
+    <Content Include="Resources\Index\VideoBackground\VideosImg55.png" />
+    <Content Include="Resources\Index\VideoBackground\VideosImg66.png" />
+    <Content Include="Resources\Master\Foathear\Foathear6.png" />
+    <Content Include="Resources\Index\ImagePopularTreatments\ImagePopularTreatments1-1.png" />
+    <Content Include="Resources\Index\ImagePopularTreatments\ImagePopularTreatments2-2.png" />
+    <Content Include="Resources\Index\ImagePopularTreatments\ImagePopularTreatments3-3.png" />
+    <Content Include="Resources\Index\ImagePopularTreatments\ImagePopularTreatments4-4.png" />
+    <Content Include="Resources\Index\ImagePopularTreatments\ImagePopularTreatments5-5.png" />
+    <Content Include="Resources\Index\ImagePopularTreatments\ImagePopularTreatments6-6.png" />
+    <Content Include="Resources\Index\SibeSalamatServices\SibeSalamatServices1.png" />
+    <Content Include="Resources\Index\SibeSalamatServices\SibeSalamatServices10.png" />
+    <Content Include="Resources\Index\SibeSalamatServices\SibeSalamatServices2.png" />
+    <Content Include="Resources\Index\SibeSalamatServices\SibeSalamatServices3.png" />
+    <Content Include="Resources\Index\SibeSalamatServices\SibeSalamatServices4.png" />
+    <Content Include="Resources\Index\SibeSalamatServices\SibeSalamatServices5.png" />
+    <Content Include="Resources\Index\SibeSalamatServices\SibeSalamatServices6.png" />
+    <Content Include="Resources\Index\SibeSalamatServices\SibeSalamatServices7.png" />
+    <Content Include="Resources\Index\SibeSalamatServices\SibeSalamatServices8.png" />
+    <Content Include="Resources\Index\SibeSalamatServices\SibeSalamatServices9.png" />
+    <Content Include="Resources\Master\Header\SelectLanguageImg.png" />
+    <Content Include="Resources\Master\Header\headerlogoRowOne.png" />
+    <Content Include="Resources\Master\Logo\LogoSibeSalamat.png" />
+    <Content Include="Resources\PagePopularTreatments\CanserTreatmentPopular\HeaderImgCanserTreatment1.png" />
+    <Content Include="Resources\PagePopularTreatments\CanserTreatmentPopular\Pic3CanserTreatment.png" />
+    <Content Include="Resources\PagePopularTreatments\Cosmeticprocedures\BtnCosmeticprocedures.png" />
+    <Content Include="Resources\PagePopularTreatments\Cosmeticprocedures\Cosmeticprocedures1.png" />
+    <Content Include="Resources\PagePopularTreatments\Cosmeticprocedures\Cosmeticprocedures2.png" />
+    <Content Include="Resources\PagePopularTreatments\Cosmeticprocedures\Cosmeticprocedures3.png" />
+    <Content Include="Resources\PagePopularTreatments\Cosmeticprocedures\Cosmeticprocedures4.png" />
+    <Content Include="Resources\PagePopularTreatments\Cosmeticprocedures\Cosmeticprocedures5.png" />
+    <Content Include="Resources\PagePopularTreatments\Cosmeticprocedures\Cosmeticprocedures6.png" />
+    <Content Include="Resources\PagePopularTreatments\DentistryPopular\HeaderImgDentistry1.png" />
+    <Content Include="Resources\PagePopularTreatments\EntPopular\HeaderImgEnt1.png" />
+    <Content Include="Resources\PagePopularTreatments\EntPopular\Pic3Ent.png" />
+    <Content Include="Resources\PagePopularTreatments\EyeCarePopular\HeaderImgEyeCare1.png" />
+    <Content Include="Resources\PagePopularTreatments\EyeCarePopular\Pic3EyeCare.png" />
+    <Content Include="Resources\PagePopularTreatments\FertilityPopular\HeaderImgFertility1.png" />
+    <Content Include="Resources\PagePopularTreatments\FertilityPopular\Pic3Fertility.png" />
+    <Content Include="Resources\PagePopularTreatments\GeneralSurgeryPopular\HeaderImgGeneralSurgery1.png" />
+    <Content Include="Resources\PagePopularTreatments\GeneralSurgeryPopular\Pic3GeneralSurgery.png" />
+    <Content Include="Resources\PagePopularTreatments\GeneralSurgeryPopular\VideoGeneralSurgery.png" />
+    <Content Include="Resources\PagePopularTreatments\HairTransplantPopular\HeaderImgHairTransplantt.png" />
+    <Content Include="Resources\PagePopularTreatments\HeartTreatmentPopular\HeaderImgHeartTreatment1.png" />
+    <Content Include="Resources\PagePopularTreatments\HeartTreatmentPopular\Pic3HeartTreatment.png" />
+    <Content Include="Resources\PagePopularTreatments\ImgMapIran.png" />
+    <Content Include="Resources\PagePopularTreatments\ImgSibSalamat.png" />
+    <Content Include="Resources\PagePopularTreatments\DentistryPopular\Pic3Dentistry.png" />
+    <Content Include="Resources\PagePopularTreatments\DentistryPopular\VideoDentistry.png" />
+    <Content Include="Resources\PagePopularTreatments\HairTransplantPopular\Pic3HairTransplant.png" />
+    <Content Include="Resources\PagePopularTreatments\HairTransplantPopular\VideoHairTransplant.png" />
+    <Content Include="Resources\PagePopularTreatments\LumbarDiskPopular\HeaderImgLumbarDisk1.png" />
+    <Content Include="Resources\PagePopularTreatments\LumbarDiskPopular\Pic3LumbarDisk.png" />
+    <Content Include="Resources\PagePopularTreatments\MedicalTreatments\MedicalTreatments1.png" />
+    <Content Include="Resources\PagePopularTreatments\MedicalTreatments\MedicalTreatments2.png" />
+    <Content Include="Resources\PagePopularTreatments\MedicalTreatments\MedicalTreatments3.png" />
+    <Content Include="Resources\PagePopularTreatments\MedicalTreatments\MedicalTreatments4.png" />
+    <Content Include="Resources\PagePopularTreatments\MedicalTreatments\MedicalTreatments5.png" />
+    <Content Include="Resources\PagePopularTreatments\MedicalTreatments\MedicalTreatments6.png" />
+    <Content Include="Resources\PagePopularTreatments\MedicalTreatments\MedicalTreatments7.png" />
+    <Content Include="Resources\PagePopularTreatments\MedicalTreatments\MedicalTreatments8.png" />
+    <Content Include="Resources\PagePopularTreatments\NeurologyPsychiatryPopular\HeaderImgNeurologyPsychiatry1.png" />
+    <Content Include="Resources\PagePopularTreatments\NeurologyPsychiatryPopular\Pic3NeurologyPsychiatry.png" />
+    <Content Include="Resources\PagePopularTreatments\NonSurgryPobular\HeaderImgNonSurgry1.png" />
+    <Content Include="Resources\PagePopularTreatments\NonSurgryPobular\Pic3NonSurgry.png" />
+    <Content Include="Resources\PagePopularTreatments\NonSurgryPobular\VideoNonSurgry.png" />
+    <Content Include="Resources\PagePopularTreatments\NoseJobsPopular\HeaderImgNoseJob1.png" />
+    <Content Include="Resources\PagePopularTreatments\NoseJobsPopular\Pic3NoseJob.png" />
+    <Content Include="Resources\PagePopularTreatments\NoseJobsPopular\VideoNoseJob.png" />
+    <Content Include="Resources\PagePopularTreatments\OrthopedicPopular\HeaderImgOrthopedic1.png" />
+    <Content Include="Resources\PagePopularTreatments\OrthopedicPopular\Pic3Orthopedic.png" />
+    <Content Include="Resources\PagePopularTreatments\OsteoarthritsPopular\HeaderImgOsteoarthrits1.png" />
+    <Content Include="Resources\PagePopularTreatments\OsteoarthritsPopular\Pic3Osteoarthrits.png" />
+    <Content Include="Resources\PagePopularTreatments\PlasticSurgeryPopular\HeaderImgPlasticSurgery1.png" />
+    <Content Include="Resources\PagePopularTreatments\PlasticSurgeryPopular\Pic3PlasticSurgery.png" />
+    <Content Include="Resources\PagePopularTreatments\PlasticSurgeryPopular\VideoPlasticSurgery.png" />
+    <Content Include="Resources\PagePopularTreatments\Slider\SliderPopularTreatments1.png" />
+    <Content Include="Resources\PagePopularTreatments\Slider\SliderPopularTreatments2.png" />
+    <Content Include="Resources\PagePopularTreatments\Slider\SliderPopularTreatments3.png" />
+    <Content Include="Resources\PagePopularTreatments\Slider\SliderPopularTreatments4.png" />
+    <Content Include="Resources\PagePopularTreatments\Slider\SliderPopularTreatments5.png" />
+    <Content Include="Resources\PagePopularTreatments\WeightLossPopular\HeaderImgWeightLoss1.png" />
+    <Content Include="Resources\PagePopularTreatments\WeightLossPopular\Pic3WeightLoss.png" />
+    <Content Include="Resources\PagePopularTreatments\WeightLossPopular\VideoWeightLoss.png" />
+    <Content Include="Resources\Profile\ProfileImgLeft.png" />
+    <Content Include="Resources\Profile\ProfileImgRight.png" />
+    <Content Include="Resources\SingInPage\SliderSingIn1.png" />
+    <Content Include="Resources\SingInPage\SliderSingIn2.png" />
+    <Content Include="Resources\SingInPage\SliderSingIn3.png" />
+    <Content Include="Resources\SingInPage\SliderSingIn4.png" />
+    <Content Include="Resources\SingInPage\SliderSingIn5.png" />
+    <Content Include="Resources\SingUpPage\RowOneDises\RowOneDisses1.png" />
+    <Content Include="Resources\SingUpPage\RowOneDises\RowOneDisses2.png" />
+    <Content Include="Resources\SingUpPage\RowOneDises\RowOneDisses3.png" />
+    <Content Include="Resources\SingUpPage\RowThreeDisses\RowThreeDisses1.png" />
+    <Content Include="Resources\SingUpPage\RowThreeDisses\RowThreeDisses2.png" />
+    <Content Include="Resources\SingUpPage\RowThreeDisses\RowThreeDisses3.png" />
+    <Content Include="Resources\SingUpPage\RowTwoDisses\RowTwoDisses1.png" />
+    <Content Include="Resources\SingUpPage\RowTwoDisses\RowTwoDisses2.png" />
+    <Content Include="Resources\SingUpPage\RowTwoDisses\RowTwoDisses3.png" />
+    <Content Include="Resources\SingUpPage\SinUpAllImgSlide.png" />
+    <Content Include="Resources\SocialNetworks\sharnetwork.png" />
+    <Content Include="Resources\SingUpPage\SingUp1.png" />
+    <Content Include="Resources\SingUpPage\SingUp2.png" />
+    <Content Include="Resources\SingUpPage\SingUp3.png" />
+    <Content Include="Resources\SingUpPage\SingUp4.png" />
+    <Content Include="Resources\SingUpPage\SingUp5.png" />
+    <Content Include="Resources\SingUpPage\SingUp10.png" />
+    <Content Include="Resources\SingUpPage\SingUp6.png" />
+    <Content Include="Resources\SingUpPage\singupteztbackground.jpg" />
+    <Content Include="Resources\SingUpPage\singupteztbackground.png" />
+    <Content Include="Resources\Index\Slide\slide2.png" />
+    <Content Include="Resources\Index\Slide\slide3.png" />
+    <Content Include="Resources\Index\Slide\slide5.png" />
+    <Content Include="Resources\Index\Slide\slide7.png" />
+    <Content Include="Resources\Index\Slide\slider1.png" />
+    <Content Include="Resources\Index\VideoBackground\VideoTabriz.png" />
+    <Content Include="Resources\SocialNetworks\SocialNetworks1.png" />
+    <Content Include="Resources\SocialNetworks\SocialNetworks11.png" />
+    <Content Include="Resources\SocialNetworks\SocialNetworks2.png" />
+    <Content Include="Resources\SocialNetworks\SocialNetworks22.png" />
+    <Content Include="Resources\SocialNetworks\SocialNetworks3.png" />
+    <Content Include="Resources\SocialNetworks\SocialNetworks33.png" />
+    <Content Include="Resources\SocialNetworks\SocialNetworks4.png" />
+    <Content Include="Resources\SocialNetworks\SocialNetworks44.png" />
+    <Content Include="Resources\SocialNetworks\SocialNetworks5.png" />
+    <Content Include="Resources\SocialNetworks\SocialNetworks55.png" />
+    <Content Include="Resources\SocialNetworks\SocialNetworks6.png" />
+    <Content Include="Resources\SocialNetworks\SocialNetworks66.png" />
+    <Content Include="Resources\SocialNetworks\SocialNetworks7.png" />
+    <Content Include="Resources\SocialNetworks\SocialNetworks77.png" />
+    <Content Include="Resources\Ticket\SliderTicket1.png" />
+    <Content Include="Resources\Ticket\SliderTicket2.png" />
+    <Content Include="Resources\Ticket\SliderTicket3.png" />
+    <Content Include="Resources\Ticket\SliderTicket4.png" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Views\About-Us\AbouUs.aspx" />
+    <Content Include="Views\CssLibirary\AbouUs.css" />
+    <Content Include="Views\CssLibirary\CanserTreatmentPopular.css" />
+    <Content Include="Views\CssLibirary\DentistryPopular.css" />
+    <Content Include="Views\CssLibirary\EntPopular.css" />
+    <Content Include="Views\CssLibirary\EyeCarePopular.css" />
+    <Content Include="Views\CssLibirary\FertilityPopular.css" />
+    <Content Include="Views\CssLibirary\GeneralSurgeryPopular.css" />
+    <Content Include="Views\CssLibirary\HairTransplantPopular.css" />
+    <Content Include="Views\CssLibirary\HeartTreatmentPopular.css" />
+    <Content Include="Views\CssLibirary\Hospital-Amialmomenin.css" />
+    <Content Include="Views\CssLibirary\Hospital-Shams.css" />
+    <Content Include="Views\CssLibirary\Hospital-Valiasr.css" />
+    <Content Include="Views\CssLibirary\Hospitals.css" />
+    <Content Include="Views\CssLibirary\LumbarDiskPopular.css" />
+    <Content Include="Views\CssLibirary\NeurologyPsychiatryPopular.css" />
+    <Content Include="Views\CssLibirary\NonSurgryPopular.css" />
+    <Content Include="Views\CssLibirary\NoseJobsPopular.css" />
+    <Content Include="Views\CssLibirary\OrthopedicPopular.css" />
+    <Content Include="Views\CssLibirary\OsteoarthritsPopular.css" />
+    <Content Include="Views\CssLibirary\PlasticSurgeryPopular.css" />
+    <Content Include="Views\CssLibirary\Ticket.css" />
+    <Content Include="Views\CssLibirary\WeightLossPopular.css" />
+    <Content Include="Views\dream-1-1.mp4" />
+    <Content Include="Views\Fa\About-Us-Fa\AbouUs-Fa.aspx" />
+    <Content Include="Views\Fa\About-Us-Fa\Css-About-Us-Fa\AbouUs-Fa.css" />
+    <Content Include="Views\Fa\About-Us-Fa\J-About-Us-Fa\AbouUs-Fa.js" />
+    <Content Include="Views\Fa\CssLibirary-Fa\Index-Fa.css" />
+    <Content Include="Views\Fa\Hospitals-Fa\Css-Hospitals-Fa\Hospital-Amialmomenin-Fa.css" />
+    <Content Include="Views\Fa\Hospitals-Fa\Css-Hospitals-Fa\Hospital-Shams-Fa.css" />
+    <Content Include="Views\Fa\Hospitals-Fa\Css-Hospitals-Fa\Hospital-Valiasr-Fa.css" />
+    <Content Include="Views\Fa\Hospitals-Fa\Css-Hospitals-Fa\Hospitals-Fa.css" />
+    <Content Include="Views\Fa\Hospitals-Fa\Hospitals-Fa.aspx" />
+    <Content Include="Views\Fa\Hospitals-Fa\Hospitals\Hospital-Amialmomenin-Fa.aspx" />
+    <Content Include="Views\Fa\Hospitals-Fa\Hospitals\Hospital-Shams-Fa.aspx" />
+    <Content Include="Views\Fa\Hospitals-Fa\Hospitals\Hospital-Valiasr-Fa.aspx" />
+    <Content Include="Views\Fa\Hospitals-Fa\J-Hospitals-Fa\Hospitals-Fa.js" />
+    <Content Include="Views\Fa\Index-Fa.aspx" />
+    <Content Include="Views\Fa\JLibirary-Fa\Index-Fa.js" />
+    <Content Include="Views\Fa\Master-Fa\Css-Master-Fa\Site-Fa.css" />
+    <Content Include="Views\Fa\Master-Fa\Jlibiary-Master-Fa\Site-Fa.js" />
+    <Content Include="Views\Fa\PopularPages-Fa\Css-Popular-Fa\CanserPopular-Fa.css" />
+    <Content Include="Views\Fa\PopularPages-Fa\Css-Popular-Fa\DentistryPopular-Fa.css" />
+    <Content Include="Views\Fa\PopularPages-Fa\Css-Popular-Fa\EntPopular-Fa.css" />
+    <Content Include="Views\Fa\PopularPages-Fa\Css-Popular-Fa\EyeCarePopular-Fa.css" />
+    <Content Include="Views\Fa\PopularPages-Fa\Css-Popular-Fa\FertilityPopular-Fa.css" />
+    <Content Include="Views\Fa\PopularPages-Fa\Css-Popular-Fa\GeneralSurgeryPopular-Fa.css" />
+    <Content Include="Views\Fa\PopularPages-Fa\Css-Popular-Fa\HairTransplantPopular-Fa.css" />
+    <Content Include="Views\Fa\PopularPages-Fa\Css-Popular-Fa\HeartPopular-Fa.css" />
+    <Content Include="Views\Fa\PopularPages-Fa\Css-Popular-Fa\LumbarDiskPopular-Fa.css" />
+    <Content Include="Views\Fa\PopularPages-Fa\Css-Popular-Fa\NeurologyPsychiatryPopular-Fa.css" />
+    <Content Include="Views\Fa\PopularPages-Fa\Css-Popular-Fa\NonSurgryPobular-Fa.css" />
+    <Content Include="Views\Fa\PopularPages-Fa\Css-Popular-Fa\NoseJobsPopular-Fa.css" />
+    <Content Include="Views\Fa\PopularPages-Fa\Css-Popular-Fa\OrthopedicPopular-Fa.css" />
+    <Content Include="Views\Fa\PopularPages-Fa\Css-Popular-Fa\OsteoarthritsPopular-Fa.css" />
+    <Content Include="Views\Fa\PopularPages-Fa\Css-Popular-Fa\PlasticSurgeryPobular-Fa.css" />
+    <Content Include="Views\Fa\PopularPages-Fa\Css-Popular-Fa\Pobular.css" />
+    <Content Include="Views\Fa\PopularPages-Fa\Css-Popular-Fa\WeightLossPopular-Fa.css" />
+    <Content Include="Views\Fa\PopularPages-Fa\J-Popular-Fa\Pobular-Fa.js" />
+    <Content Include="Views\Fa\PopularPages-Fa\Pobular-Fa.aspx" />
+    <Content Include="Views\Fa\PopularPages-Fa\PopularPages\CanserPopular-Fa.aspx" />
+    <Content Include="Views\Fa\PopularPages-Fa\PopularPages\DentistryPopular-Fa.aspx" />
+    <Content Include="Views\Fa\PopularPages-Fa\PopularPages\EntPopular-Fa.aspx" />
+    <Content Include="Views\Fa\PopularPages-Fa\PopularPages\EyeCarePopular-Fa.aspx" />
+    <Content Include="Views\Fa\PopularPages-Fa\PopularPages\FertilityPopular-Fa.aspx" />
+    <Content Include="Views\Fa\PopularPages-Fa\PopularPages\GeneralSurgeryPopular-Fa.aspx" />
+    <Content Include="Views\Fa\PopularPages-Fa\PopularPages\HairTransplantPopular-Fa.aspx" />
+    <Content Include="Views\Fa\PopularPages-Fa\PopularPages\HeartPopular-Fa.aspx" />
+    <Content Include="Views\Fa\PopularPages-Fa\PopularPages\LumbarDiskPopular-Fa.aspx" />
+    <Content Include="Views\Fa\PopularPages-Fa\PopularPages\NeurologyPsychiatryPopular-Fa.aspx" />
+    <Content Include="Views\Fa\PopularPages-Fa\PopularPages\NonSurgryPobular-Fa.aspx" />
+    <Content Include="Views\Fa\PopularPages-Fa\PopularPages\NoseJobsPopular-Fa.aspx" />
+    <Content Include="Views\Fa\PopularPages-Fa\PopularPages\OrthopedicPopular-Fa.aspx" />
+    <Content Include="Views\Fa\PopularPages-Fa\PopularPages\OsteoarthritsPopular-Fa.aspx" />
+    <Content Include="Views\Fa\PopularPages-Fa\PopularPages\PlasticSurgeryPobular-Fa.aspx" />
+    <Content Include="Views\Fa\PopularPages-Fa\PopularPages\WeightLossPopular-Fa.aspx" />
+    <Content Include="Views\Fa\Profile-Fa\Css-Profile-Fa\Profile-Fa.css" />
+    <Content Include="Views\Fa\Profile-Fa\J-Profile-Fa\Profile-Fa.js" />
+    <Content Include="Views\Fa\Profile-Fa\Profile-Fa.aspx" />
+    <Content Include="Views\Fa\Secure-Fa\Css-SingUp-Fa\SingIn-Fa.css" />
+    <Content Include="Views\Fa\Secure-Fa\Css-SingUp-Fa\SingUp-Fa.css" />
+    <Content Include="Views\Fa\Secure-Fa\J-SingUp-Fa\SingIn-Fa.js" />
+    <Content Include="Views\Fa\Secure-Fa\J-SingUp-Fa\SingUp-Fa.js" />
+    <Content Include="Views\Fa\Secure-Fa\SingIn-Fa.aspx" />
+    <Content Include="Views\Fa\Secure-Fa\SingUp-Fa.aspx" />
+    <Content Include="Views\Fa\Ticket-Fa\Css-Ticket-Fa\Ticket-Fa.css" />
+    <Content Include="Views\Fa\Ticket-Fa\J-Ticket-Fa\Ticket-Fa.js" />
+    <Content Include="Views\Fa\Ticket-Fa\Ticket-Fa.aspx" />
+    <Content Include="Views\Hospitals\Hospital-Amialmomenin.aspx" />
+    <Content Include="Views\Hospitals\Hospital-Shams.aspx" />
+    <Content Include="Views\Hospitals\Hospital-Valiasr.aspx" />
+    <Content Include="Views\Hospitals\Hospitals.aspx" />
+    <Content Include="Views\CssLibirary\Index.css" />
+    <Content Include="Views\JLibirary\AbouUs.js" />
+    <Content Include="Views\JLibirary\Hospitals.js" />
+    <Content Include="Views\JLibirary\Index.js" />
+    <Content Include="Views\JLibirary\Ticket.js" />
+    <Content Include="Views\Master\Site.css" />
+    <Content Include="Views\Master\Site.js" />
+    <Content Include="Views\CssLibirary\Pobular.css" />
+    <Content Include="Views\JLibirary\Pobular.js" />
+    <Content Include="Views\Popular.aspx" />
+    <Content Include="Views\PopularPages\CanserPopular.aspx" />
+    <Content Include="Views\PopularPages\DentistryPopular.aspx" />
+    <Content Include="Views\PopularPages\EntPopular.aspx" />
+    <Content Include="Views\PopularPages\EyeCarePopular.aspx" />
+    <Content Include="Views\PopularPages\FertilityPopular.aspx" />
+    <Content Include="Views\PopularPages\GeneralSurgeryPopular.aspx" />
+    <Content Include="Views\PopularPages\HairTransplantPopular.aspx" />
+    <Content Include="Views\PopularPages\HeartPopular.aspx" />
+    <Content Include="Views\PopularPages\LumbarDiskPopular.aspx" />
+    <Content Include="Views\PopularPages\NeurologyPsychiatryPopular.aspx" />
+    <Content Include="Views\PopularPages\NonSurgryPopular.aspx" />
+    <Content Include="Views\PopularPages\NoseJobsPopular.aspx" />
+    <Content Include="Views\PopularPages\OrthopedicPopular.aspx" />
+    <Content Include="Views\PopularPages\OsteoarthritsPopular.aspx" />
+    <Content Include="Views\PopularPages\PlasticSurgeryPopular.aspx" />
+    <Content Include="Views\PopularPages\WeightLossPopular.aspx" />
+    <Content Include="Views\Profile\CssStyleProfile\Profile.css" />
+    <Content Include="Views\Profile\JavaLibary\Profile.js" />
+    <Content Include="Views\Profile\Master\SiteProfile.css" />
+    <Content Include="Views\Profile\Profile.aspx" />
+    <Content Include="Views\Profile\Ticket-User.aspx" />
+    <Content Include="Views\Secure\CssLibarySing\SingIn.css" />
+    <Content Include="Views\Secure\JavaLibarySing\JavaScript.js" />
+    <Content Include="Views\Secure\LogIn.aspx" />
+    <Content Include="Views\Secure\LogIn.css" />
+    <Content Include="Views\Secure\SingIn.aspx" />
+    <Content Include="Views\Secure\SingUp.aspx" />
+    <Content Include="Views\Secure\WebForm1.aspx" />
+    <Content Include="Views\Ticket\Ticketaspx.aspx" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile2.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile3.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile4.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile5.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile6.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile1.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile2.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile3.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile4.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile5.pubxml" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApiDecoder\CityCore.cs" />
+    <Compile Include="ApiDecoder\CountryCore.cs" />
+    <Compile Include="ApiDecoder\DoctorCore.cs" />
+    <Compile Include="ApiDecoder\DoctorOperationCore.cs" />
+    <Compile Include="ApiDecoder\DoctorOperationImageRelCore.cs" />
+    <Compile Include="ApiDecoder\HospitalCore.cs" />
+    <Compile Include="ApiDecoder\HospitalImageRelCore.cs" />
+    <Compile Include="ApiDecoder\HospitalSectionRelCore.cs" />
+    <Compile Include="ApiDecoder\ImageCore.cs" />
+    <Compile Include="ApiDecoder\NewsCore.cs" />
+    <Compile Include="ApiDecoder\NewsImageRelCore.cs" />
+    <Compile Include="ApiDecoder\PatientCore.cs" />
+    <Compile Include="ApiDecoder\PatientSicknessRelCore.cs" />
+    <Compile Include="ApiDecoder\SectionCore.cs" />
+    <Compile Include="ApiDecoder\SectionDoctorOperationRelCore.cs" />
+    <Compile Include="ApiDecoder\SecurityCore.cs" />
+    <Compile Include="ApiDecoder\SicknessCore.cs" />
+    <Compile Include="ApiDecoder\TranslationCore.cs" />
+    <Compile Include="ApiDecoder\UserPassCore.cs" />
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Dto\DtoTblCity.cs" />
+    <Compile Include="Models\Dto\DtoTblCountry.cs" />
+    <Compile Include="Models\Dto\DtoTblDoctor.cs" />
+    <Compile Include="Models\Dto\DtoTblDoctorOperation.cs" />
+    <Compile Include="Models\Dto\DtoTblDoctorOperationImageRel.cs" />
+    <Compile Include="Models\Dto\DtoTblHospital.cs" />
+    <Compile Include="Models\Dto\DtoTblHospitalImageRel.cs" />
+    <Compile Include="Models\Dto\DtoTblHospitalSectionRel.cs" />
+    <Compile Include="Models\Dto\DtoTblImage.cs" />
+    <Compile Include="Models\Dto\DtoTblNews.cs" />
+    <Compile Include="Models\Dto\DtoTblNewsImageRel.cs" />
+    <Compile Include="Models\Dto\DtoTblPatient.cs" />
+    <Compile Include="Models\Dto\DtoTblPatientSicknessRel.cs" />
+    <Compile Include="Models\Dto\DtoTblSection.cs" />
+    <Compile Include="Models\Dto\DtoTblSectionDoctorOperationRel.cs" />
+    <Compile Include="Models\Dto\DtoTblSickness.cs" />
+    <Compile Include="Models\Dto\DtoTblTicket.cs" />
+    <Compile Include="Models\Dto\DtoTblTicketImageRel.cs" />
+    <Compile Include="Models\Dto\DtoTblUserPass.cs" />
+    <Compile Include="Models\Regular\TblCity.cs" />
+    <Compile Include="Models\Regular\TblCountry.cs" />
+    <Compile Include="Models\Regular\TblDoctor.cs" />
+    <Compile Include="Models\Regular\TblDoctorOperation.cs" />
+    <Compile Include="Models\Regular\TblDoctorOperationImageRel.cs" />
+    <Compile Include="Models\Regular\TblHospital.cs" />
+    <Compile Include="Models\Regular\TblHospitalImageRel.cs" />
+    <Compile Include="Models\Regular\TblHospitalSectionRel.cs" />
+    <Compile Include="Models\Regular\TblImage.cs" />
+    <Compile Include="Models\Regular\TblNews.cs" />
+    <Compile Include="Models\Regular\TblNewsImageRel.cs" />
+    <Compile Include="Models\Regular\TblPatient.cs" />
+    <Compile Include="Models\Regular\TblPatientSicknessRel.cs" />
+    <Compile Include="Models\Regular\TblSection.cs" />
+    <Compile Include="Models\Regular\TblSectionDoctorOperationRel.cs" />
+    <Compile Include="Models\Regular\TblSickness.cs" />
+    <Compile Include="Models\Regular\TblTicket.cs" />
+    <Compile Include="Models\Regular\TblTicketImageRel.cs" />
+    <Compile Include="Models\Regular\TblUserPass.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\About-Us\AbouUs.aspx.cs">
+      <DependentUpon>AbouUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\About-Us\AbouUs.aspx.designer.cs">
+      <DependentUpon>AbouUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\About-Us-Fa\AbouUs-Fa.aspx.cs">
+      <DependentUpon>AbouUs-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\About-Us-Fa\AbouUs-Fa.aspx.designer.cs">
+      <DependentUpon>AbouUs-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\Hospitals-Fa\Hospitals-Fa.aspx.cs">
+      <DependentUpon>Hospitals-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\Hospitals-Fa\Hospitals-Fa.aspx.designer.cs">
+      <DependentUpon>Hospitals-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\Hospitals-Fa\Hospitals\Hospital-Amialmomenin-Fa.aspx.cs">
+      <DependentUpon>Hospital-Amialmomenin-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\Hospitals-Fa\Hospitals\Hospital-Amialmomenin-Fa.aspx.designer.cs">
+      <DependentUpon>Hospital-Amialmomenin-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\Hospitals-Fa\Hospitals\Hospital-Shams-Fa.aspx.cs">
+      <DependentUpon>Hospital-Shams-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\Hospitals-Fa\Hospitals\Hospital-Shams-Fa.aspx.designer.cs">
+      <DependentUpon>Hospital-Shams-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\Hospitals-Fa\Hospitals\Hospital-Valiasr-Fa.aspx.cs">
+      <DependentUpon>Hospital-Valiasr-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\Hospitals-Fa\Hospitals\Hospital-Valiasr-Fa.aspx.designer.cs">
+      <DependentUpon>Hospital-Valiasr-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\Index-Fa.aspx.cs">
+      <DependentUpon>Index-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\Index-Fa.aspx.designer.cs">
+      <DependentUpon>Index-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\Master-Fa\Master-index\Site-Fa.Master.cs">
+      <DependentUpon>Site-Fa.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\Master-Fa\Master-index\Site-Fa.Master.designer.cs">
+      <DependentUpon>Site-Fa.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\Pobular-Fa.aspx.cs">
+      <DependentUpon>Pobular-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\Pobular-Fa.aspx.designer.cs">
+      <DependentUpon>Pobular-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\CanserPopular-Fa.aspx.cs">
+      <DependentUpon>CanserPopular-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\CanserPopular-Fa.aspx.designer.cs">
+      <DependentUpon>CanserPopular-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\DentistryPopular-Fa.aspx.cs">
+      <DependentUpon>DentistryPopular-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\DentistryPopular-Fa.aspx.designer.cs">
+      <DependentUpon>DentistryPopular-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\EntPopular-Fa.aspx.cs">
+      <DependentUpon>EntPopular-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\EntPopular-Fa.aspx.designer.cs">
+      <DependentUpon>EntPopular-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\EyeCarePopular-Fa.aspx.cs">
+      <DependentUpon>EyeCarePopular-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\EyeCarePopular-Fa.aspx.designer.cs">
+      <DependentUpon>EyeCarePopular-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\FertilityPopular-Fa.aspx.cs">
+      <DependentUpon>FertilityPopular-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\FertilityPopular-Fa.aspx.designer.cs">
+      <DependentUpon>FertilityPopular-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\GeneralSurgeryPopular-Fa.aspx.cs">
+      <DependentUpon>GeneralSurgeryPopular-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\GeneralSurgeryPopular-Fa.aspx.designer.cs">
+      <DependentUpon>GeneralSurgeryPopular-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\HairTransplantPopular-Fa.aspx.cs">
+      <DependentUpon>HairTransplantPopular-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\HairTransplantPopular-Fa.aspx.designer.cs">
+      <DependentUpon>HairTransplantPopular-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\HeartPopular-Fa.aspx.cs">
+      <DependentUpon>HeartPopular-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\HeartPopular-Fa.aspx.designer.cs">
+      <DependentUpon>HeartPopular-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\LumbarDiskPopular-Fa.aspx.cs">
+      <DependentUpon>LumbarDiskPopular-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\LumbarDiskPopular-Fa.aspx.designer.cs">
+      <DependentUpon>LumbarDiskPopular-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\NeurologyPsychiatryPopular-Fa.aspx.cs">
+      <DependentUpon>NeurologyPsychiatryPopular-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\NeurologyPsychiatryPopular-Fa.aspx.designer.cs">
+      <DependentUpon>NeurologyPsychiatryPopular-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\NonSurgryPobular-Fa.aspx.cs">
+      <DependentUpon>NonSurgryPobular-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\NonSurgryPobular-Fa.aspx.designer.cs">
+      <DependentUpon>NonSurgryPobular-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\NoseJobsPopular-Fa.aspx.cs">
+      <DependentUpon>NoseJobsPopular-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\NoseJobsPopular-Fa.aspx.designer.cs">
+      <DependentUpon>NoseJobsPopular-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\OrthopedicPopular-Fa.aspx.cs">
+      <DependentUpon>OrthopedicPopular-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\OrthopedicPopular-Fa.aspx.designer.cs">
+      <DependentUpon>OrthopedicPopular-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\OsteoarthritsPopular-Fa.aspx.cs">
+      <DependentUpon>OsteoarthritsPopular-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\OsteoarthritsPopular-Fa.aspx.designer.cs">
+      <DependentUpon>OsteoarthritsPopular-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\PlasticSurgeryPobular-Fa.aspx.cs">
+      <DependentUpon>PlasticSurgeryPobular-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\PlasticSurgeryPobular-Fa.aspx.designer.cs">
+      <DependentUpon>PlasticSurgeryPobular-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\WeightLossPopular-Fa.aspx.cs">
+      <DependentUpon>WeightLossPopular-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\PopularPages-Fa\PopularPages\WeightLossPopular-Fa.aspx.designer.cs">
+      <DependentUpon>WeightLossPopular-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\Profile-Fa\Profile-Fa.aspx.cs">
+      <DependentUpon>Profile-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\Profile-Fa\Profile-Fa.aspx.designer.cs">
+      <DependentUpon>Profile-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\Secure-Fa\SingIn-Fa.aspx.cs">
+      <DependentUpon>SingIn-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\Secure-Fa\SingIn-Fa.aspx.designer.cs">
+      <DependentUpon>SingIn-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\Secure-Fa\SingUp-Fa.aspx.cs">
+      <DependentUpon>SingUp-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\Secure-Fa\SingUp-Fa.aspx.designer.cs">
+      <DependentUpon>SingUp-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fa\Ticket-Fa\Ticket-Fa.aspx.cs">
+      <DependentUpon>Ticket-Fa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fa\Ticket-Fa\Ticket-Fa.aspx.designer.cs">
+      <DependentUpon>Ticket-Fa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Hospitals\Hospital-Amialmomenin.aspx.cs">
+      <DependentUpon>Hospital-Amialmomenin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Hospitals\Hospital-Amialmomenin.aspx.designer.cs">
+      <DependentUpon>Hospital-Amialmomenin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Hospitals\Hospital-Shams.aspx.cs">
+      <DependentUpon>Hospital-Shams.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Hospitals\Hospital-Shams.aspx.designer.cs">
+      <DependentUpon>Hospital-Shams.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Hospitals\Hospital-Valiasr.aspx.cs">
+      <DependentUpon>Hospital-Valiasr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Hospitals\Hospital-Valiasr.aspx.designer.cs">
+      <DependentUpon>Hospital-Valiasr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Hospitals\Hospitals.aspx.cs">
+      <DependentUpon>Hospitals.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Hospitals\Hospitals.aspx.designer.cs">
+      <DependentUpon>Hospitals.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Master\Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Master\Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Popular.aspx.cs">
+      <DependentUpon>Popular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Popular.aspx.designer.cs">
+      <DependentUpon>Popular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopularPages\CanserPopular.aspx.cs">
+      <DependentUpon>CanserPopular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PopularPages\CanserPopular.aspx.designer.cs">
+      <DependentUpon>CanserPopular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopularPages\DentistryPopular.aspx.cs">
+      <DependentUpon>DentistryPopular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PopularPages\DentistryPopular.aspx.designer.cs">
+      <DependentUpon>DentistryPopular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopularPages\EntPopular.aspx.cs">
+      <DependentUpon>EntPopular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PopularPages\EntPopular.aspx.designer.cs">
+      <DependentUpon>EntPopular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopularPages\EyeCarePopular.aspx.cs">
+      <DependentUpon>EyeCarePopular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PopularPages\EyeCarePopular.aspx.designer.cs">
+      <DependentUpon>EyeCarePopular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopularPages\FertilityPopular.aspx.cs">
+      <DependentUpon>FertilityPopular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PopularPages\FertilityPopular.aspx.designer.cs">
+      <DependentUpon>FertilityPopular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopularPages\GeneralSurgeryPopular.aspx.cs">
+      <DependentUpon>GeneralSurgeryPopular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PopularPages\GeneralSurgeryPopular.aspx.designer.cs">
+      <DependentUpon>GeneralSurgeryPopular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopularPages\HairTransplantPopular.aspx.cs">
+      <DependentUpon>HairTransplantPopular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PopularPages\HairTransplantPopular.aspx.designer.cs">
+      <DependentUpon>HairTransplantPopular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopularPages\HeartPopular.aspx.cs">
+      <DependentUpon>HeartPopular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PopularPages\HeartPopular.aspx.designer.cs">
+      <DependentUpon>HeartPopular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopularPages\LumbarDiskPopular.aspx.cs">
+      <DependentUpon>LumbarDiskPopular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PopularPages\LumbarDiskPopular.aspx.designer.cs">
+      <DependentUpon>LumbarDiskPopular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopularPages\NeurologyPsychiatryPopular.aspx.cs">
+      <DependentUpon>NeurologyPsychiatryPopular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PopularPages\NeurologyPsychiatryPopular.aspx.designer.cs">
+      <DependentUpon>NeurologyPsychiatryPopular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopularPages\NonSurgryPopular.aspx.cs">
+      <DependentUpon>NonSurgryPopular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PopularPages\NonSurgryPopular.aspx.designer.cs">
+      <DependentUpon>NonSurgryPopular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopularPages\NoseJobsPopular.aspx.cs">
+      <DependentUpon>NoseJobsPopular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PopularPages\NoseJobsPopular.aspx.designer.cs">
+      <DependentUpon>NoseJobsPopular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopularPages\OrthopedicPopular.aspx.cs">
+      <DependentUpon>OrthopedicPopular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PopularPages\OrthopedicPopular.aspx.designer.cs">
+      <DependentUpon>OrthopedicPopular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopularPages\OsteoarthritsPopular.aspx.cs">
+      <DependentUpon>OsteoarthritsPopular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PopularPages\OsteoarthritsPopular.aspx.designer.cs">
+      <DependentUpon>OsteoarthritsPopular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopularPages\PlasticSurgeryPopular.aspx.cs">
+      <DependentUpon>PlasticSurgeryPopular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PopularPages\PlasticSurgeryPopular.aspx.designer.cs">
+      <DependentUpon>PlasticSurgeryPopular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopularPages\WeightLossPopular.aspx.cs">
+      <DependentUpon>WeightLossPopular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PopularPages\WeightLossPopular.aspx.designer.cs">
+      <DependentUpon>WeightLossPopular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Profile\Master\SiteProfile.Master.cs">
+      <DependentUpon>SiteProfile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Profile\Master\SiteProfile.Master.designer.cs">
+      <DependentUpon>SiteProfile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Profile\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Profile\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Profile\Ticket-User.aspx.cs">
+      <DependentUpon>Ticket-User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Profile\Ticket-User.aspx.designer.cs">
+      <DependentUpon>Ticket-User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Secure\LogIn.aspx.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Secure\LogIn.aspx.designer.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Secure\SingIn.aspx.cs">
+      <DependentUpon>SingIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Secure\SingIn.aspx.designer.cs">
+      <DependentUpon>SingIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Secure\SingUp.aspx.cs">
+      <DependentUpon>SingUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Secure\SingUp.aspx.designer.cs">
+      <DependentUpon>SingUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Secure\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Secure\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Ticket\Ticketaspx.aspx.cs">
+      <DependentUpon>Ticketaspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Ticket\Ticketaspx.aspx.designer.cs">
+      <DependentUpon>Ticketaspx.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="Views\Master\Site.Master" />
+    <Content Include="Views\Fa\Master-Fa\Master-index\Site-Fa.Master" />
+    <Content Include="Views\Profile\Master\SiteProfile.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\ImagesEmail\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51363</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44317/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

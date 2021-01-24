@@ -1,0 +1,609 @@
+﻿.PanelPlasticSurgeryStyle {
+}
+
+.ImgHeaderPlasticSurgeryStyle {
+    width: 100%;
+    transform: scaleX(-1)
+}
+
+.DivVideoAndTextPlasticSurgeryStyle {
+    margin-top: 5%;
+}
+
+.VideoPlasticSurgeryStyle {
+    width: 100%;
+}
+
+.TitrTextVideoPlasticSurgeryStyle {
+    font-family: W_yekan;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoPlasticSurgeryStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoPlasticSurgeryStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.SliderDivTextPlasticSurgeryStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 5%;
+}
+
+.SliderTitrPlasticSurgeryStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextPlasticSurgeryStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-right: 5%;
+}
+
+.SliderZirTitrPlasticSurgeryStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionPlasticSurgeryTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-right: 5.5%;
+}
+
+.SliderDescriptionPlasticSurgeryTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnPlasticSurgerySingInStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-right: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnPlasticSurgerySingInStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-right: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnPlasticSurgeryStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnPlasticSurgeryStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextPlasticSurgeryStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextPlasticSurgeryStyle {
+    font-family: W_yekan;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.DescaptirionOrginalPlasticSurgeryStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOnePlasticSurgeryStyle {
+}
+
+.Pic3PlasticSurgeryRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOnePlasticSurgeryStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOnePlasticSurgeryStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOnePlasticSurgeryStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoPlasticSurgeryStyle {
+    margin-top: 10%;
+}
+
+.Pic1PlasticSurgeryRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoPlasticSurgeryStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoPlasticSurgeryStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoPlasticSurgeryStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowThreePlasticSurgeryStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2PlasticSurgeryRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreePlasticSurgeryStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreePlasticSurgeryStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreePlasticSurgeryStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+/*#Sm*/
+.PanelPlasticSurgerySmStyle {
+}
+
+.ImgHeaderPlasticSurgerySmStyle {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.SliderDivTextPlasticSurgerySmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 5%;
+}
+
+.SliderTitrPlasticSurgerySmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextPlasticSurgerySmStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-right: 5%;
+}
+
+.SliderZirTitrPlasticSurgerySmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionPlasticSurgeryTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-right: 5.5%;
+}
+
+.SliderDescriptionPlasticSurgeryTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnPlasticSurgerySingInSmStyle {
+    position: absolute;
+    margin-top: -7%;
+    margin-right: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnPlasticSurgerySingInSmStyle:hover {
+        position: absolute;
+        margin-top: -7%;
+        margin-right: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnPlasticSurgerySmStyle {
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+    .TextBtnPlasticSurgerySmStyle:hover {
+        color: white;
+        font-size: 2vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextPlasticSurgerySmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextPlasticSurgerySmStyle {
+    font-family: W_yekan;
+    font-size: 1.7vw;
+    color: black;
+}
+
+.DivVideoAndTextPlasticSurgerySmStyle {
+    margin-top: 5%;
+}
+
+.VideoPlasticSurgerySmStyle {
+    width: 100%;
+}
+
+.DivZirVideoPlasticSurgerySmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoPlasticSurgerySmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoPlasticSurgerySmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalPlasticSurgerySmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOnePlasticSurgerySmStyle {
+}
+
+.Pic3PlasticSurgeryRowOneTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOnePlasticSurgerySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOnePlasticSurgerySmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOnePlasticSurgerySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOnePlasticSurgerySmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowTwoPlasticSurgerySmStyle {
+    margin-top: 10%;
+}
+
+.Pic1PlasticSurgeryRowTwoTreatmentSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoPlasticSurgerySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoPlasticSurgerySmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoPlasticSurgerySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoPlasticSurgerySmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowThreePlasticSurgerySmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2PlasticSurgeryRowThreeTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreePlasticSurgerySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreePlasticSurgerySmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreePlasticSurgerySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreePlasticSurgerySmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+/* #Xs*/
+
+
+.PanelPlasticSurgeryXsStyle {
+}
+
+.ImgHeaderPlasticSurgeryXsStyle {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.SliderDivTextPlasticSurgeryXsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 3%;
+}
+
+.SliderTitrPlasticSurgeryXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextPlasticSurgeryXsStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-right: 3%;
+}
+
+.SliderZirTitrPlasticSurgeryXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionPlasticSurgeryTitrXsStyle {
+    position: absolute;
+    margin-top: -19%;
+    margin-right: 3.5%;
+}
+
+.SliderDescriptionPlasticSurgeryTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnPlasticSurgerySingInXsStyle {
+    position: absolute;
+    margin-top: -13%;
+    margin-right: 3.5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnPlasticSurgerySingInXsStyle:hover {
+        position: absolute;
+        margin-top: -13%;
+        margin-right: 3.5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnPlasticSurgeryXsStyle {
+    color: white;
+    font-size: 2.7vw;
+    font-weight: bold;
+}
+
+    .TextBtnPlasticSurgeryXsStyle:hover {
+        color: white;
+        font-size: 2.7vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextPlasticSurgeryXsStyle {
+    margin-top: 3%;
+}
+
+.ZirHeadersImgTextPlasticSurgeryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.3vw;
+    color: black;
+}
+
+.DivVideoAndTextPlasticSurgeryXsStyle {
+    margin-top: 5%;
+}
+
+.VideoPlasticSurgeryXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoPlasticSurgeryXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoPlasticSurgeryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoPlasticSurgeryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionOrginalPlasticSurgeryXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOnePlasticSurgeryXsStyle {
+}
+
+.Pic3PlasticSurgeryTreatmentRowOneTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOnePlasticSurgeryXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOnePlasticSurgeryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOnePlasticSurgeryXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOnePlasticSurgeryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoPlasticSurgeryXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1PlasticSurgeryRowTwoTreatmentXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoPlasticSurgeryXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoPlasticSurgeryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoPlasticSurgeryXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoPlasticSurgeryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreePlasticSurgeryXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2PlasticSurgeryRowThreeTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreePlasticSurgeryXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreePlasticSurgeryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreePlasticSurgeryXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreePlasticSurgeryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}

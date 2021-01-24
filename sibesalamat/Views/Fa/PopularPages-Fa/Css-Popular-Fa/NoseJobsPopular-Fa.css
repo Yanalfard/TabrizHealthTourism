@@ -1,0 +1,609 @@
+﻿.PanelNoseJobsStyle {
+}
+
+.ImgHeaderNoseJobsStyle {
+    width: 100%;
+    transform: scaleX(-1)
+}
+
+.DivVideoAndTextNoseJobsStyle {
+    margin-top: 5%;
+}
+
+.VideoNoseJobsStyle {
+    width: 100%;
+}
+
+.TitrTextVideoNoseJobsStyle {
+    font-family: W_yekan;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoNoseJobsStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoNoseJobsStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.SliderDivTextNoseJobsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 5%;
+}
+
+.SliderTitrNoseJobsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextNoseJobsStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-right: 5%;
+}
+
+.SliderZirTitrNoseJobsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionNoseJobsTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-right: 5.5%;
+}
+
+.SliderDescriptionNoseJobsTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnNoseJobsSingInStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-right: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnNoseJobsSingInStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-right: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnNoseJobsStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnNoseJobsStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextNoseJobsStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextNoseJobsStyle {
+    font-family: W_yekan;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.DescaptirionOrginalNoseJobsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneNoseJobsStyle {
+}
+
+.Pic3NoseJobsRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOneNoseJobsStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneNoseJobsStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOneNoseJobsStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoNoseJobsStyle {
+    margin-top: 10%;
+}
+
+.Pic1NoseJobsRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoNoseJobsStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoNoseJobsStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoNoseJobsStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowThreeNoseJobsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2NoseJobsRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreeNoseJobsStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeNoseJobsStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreeNoseJobsStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+/*#Sm*/
+.PanelNoseJobsSmStyle {
+}
+
+.ImgHeaderNoseJobsSmStyle {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.SliderDivTextNoseJobsSmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 5%;
+}
+
+.SliderTitrNoseJobsSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextNoseJobsSmStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-right: 5%;
+}
+
+.SliderZirTitrNoseJobsSmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionNoseJobsTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-right: 5.5%;
+}
+
+.SliderDescriptionNoseJobsTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnNoseJobsSingInSmStyle {
+    position: absolute;
+    margin-top: -7%;
+    margin-right: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnNoseJobsSingInSmStyle:hover {
+        position: absolute;
+        margin-top: -7%;
+        margin-right: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnNoseJobsSmStyle {
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+    .TextBtnNoseJobsSmStyle:hover {
+        color: white;
+        font-size: 2vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextNoseJobsSmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextNoseJobsSmStyle {
+    font-family: W_yekan;
+    font-size: 1.7vw;
+    color: black;
+}
+
+.DivVideoAndTextNoseJobsSmStyle {
+    margin-top: 5%;
+}
+
+.VideoNoseJobsSmStyle {
+    width: 100%;
+}
+
+.DivZirVideoNoseJobsSmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoNoseJobsSmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoNoseJobsSmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalNoseJobsSmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneNoseJobsSmStyle {
+}
+
+.Pic3NoseJobsRowOneTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneNoseJobsSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneNoseJobsSmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneNoseJobsSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneNoseJobsSmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowTwoNoseJobsSmStyle {
+    margin-top: 10%;
+}
+
+.Pic1NoseJobsRowTwoTreatmentSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoNoseJobsSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoNoseJobsSmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoNoseJobsSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoNoseJobsSmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowThreeNoseJobsSmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2NoseJobsRowThreeTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeNoseJobsSmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeNoseJobsSmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeNoseJobsSmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeNoseJobsSmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+/* #Xs*/
+
+
+.PanelNoseJobsXsStyle {
+}
+
+.ImgHeaderNoseJobsXsStyle {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.SliderDivTextNoseJobsXsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 3%;
+}
+
+.SliderTitrNoseJobsXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextNoseJobsXsStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-right: 3%;
+}
+
+.SliderZirTitrNoseJobsXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionNoseJobsTitrXsStyle {
+    position: absolute;
+    margin-top: -19%;
+    margin-right: 3.5%;
+}
+
+.SliderDescriptionNoseJobsTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnNoseJobsSingInXsStyle {
+    position: absolute;
+    margin-top: -13%;
+    margin-right: 3.5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnNoseJobsSingInXsStyle:hover {
+        position: absolute;
+        margin-top: -13%;
+        margin-right: 3.5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnNoseJobsXsStyle {
+    color: white;
+    font-size: 2.7vw;
+    font-weight: bold;
+}
+
+    .TextBtnNoseJobsXsStyle:hover {
+        color: white;
+        font-size: 2.7vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextNoseJobsXsStyle {
+    margin-top: 3%;
+}
+
+.ZirHeadersImgTextNoseJobsXsStyle {
+    font-family: W_yekan;
+    font-size: 2.3vw;
+    color: black;
+}
+
+.DivVideoAndTextNoseJobsXsStyle {
+    margin-top: 5%;
+}
+
+.VideoNoseJobsXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoNoseJobsXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoNoseJobsXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoNoseJobsXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionOrginalNoseJobsXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneNoseJobsXsStyle {
+}
+
+.Pic3NoseJobsTreatmentRowOneTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneNoseJobsXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneNoseJobsXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneNoseJobsXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneNoseJobsXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoNoseJobsXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1NoseJobsRowTwoTreatmentXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoNoseJobsXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoNoseJobsXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoNoseJobsXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoNoseJobsXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeNoseJobsXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2NoseJobsRowThreeTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeNoseJobsXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeNoseJobsXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeNoseJobsXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeNoseJobsXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}

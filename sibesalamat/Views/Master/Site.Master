@@ -1,0 +1,833 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="sibesalamat.Views.Master.Site" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr">
+<head runat="server">
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <title><%: Page.Title %> SibeSalamat</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SibeSalamat" />
+    <meta name="keywords" content="SibeSalamat,Pobular" />
+    <meta name="language" content="en-US" />
+    <link rel="icon" href="../../Resources/Master/Logo/LogoSibeSalamat.png" />
+    <script src="https://www.google.com/recaptcha/api.js?render=put your site key here"></script>
+
+    <script src="../../Scripts/jquery-1.9.1.min.js"></script>
+    <script src="../../Scripts/bootstrap.min.js"></script>
+    <link href="../../Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+
+    <script src="../../Views/Master/Site.js"></script>
+    <link href="../../Views/Master/Site.css" rel="stylesheet" />
+
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+
+    <form id="form1" runat="server">
+        <div class="container-fluid">
+
+            <div id="header" class="row">
+                <img src="../../Resources/Master/Header/headerlogoRowOne.png" class="ImgheaderlogoRowOneStyle img-responsive" alt="SibesSalamat-HeaderlogoRowOne" title="SibesSalamat-HeaderlogoRowOne" />
+
+                <div id="PanelHearder">
+
+                    <div id="PanelHearderImage" class="row DivPositionTextSininStyle">
+                        <a class="LblsinginStyle " href="#" title="SingIn-SibeSalamat">Singin</a>
+                    </div>
+                    <div class="row DivPositionTextSelectLanguageStyle">
+                        <img src="../../Resources/Master/Header/SelectLanguageImg.png" class="SelectLanguageImgStyle" />
+                        <%--<a class="LbllanguageStyle " href="#" title="Select-language-SibeSalamat">Select language</a>--%>
+                        <div class="dropdown LbllanguageStyle">
+                            <a class="dropbtn ">Select language</a>
+                            <div class="dropdown-content">
+                                <a href="../../Index.aspx">En</a>
+                                <a href="../../Views/Fa/Index-Fa.aspx">Fa</a>
+                            </div>
+                        </div>
+                    </div>
+                    <style>
+                        .dropbtn {
+                            
+                            color: black;
+                            padding: 16px;
+                            font-size: 16px;
+                            border: none;
+                        }
+                        .dropbtn:hover {
+                            color: black;
+                            text-decoration:none;
+                        }
+                        .dropdown {
+                            position: relative;
+                            display: inline-block;
+                        }
+
+                        .dropdown-content {
+                            display: none;
+                            position: absolute;
+                            min-width: 160px;
+                            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                            z-index: 1;
+                        }
+
+                            .dropdown-content a {
+                                color: black;
+                                padding: 12px 16px;
+                                text-decoration: none;
+                                display: block;
+                            }
+
+                                .dropdown-content a:hover {
+                                background-color:white;
+                                }
+
+                        .dropdown:hover .dropdown-content {
+                            display: block;
+                        }
+
+                        .dropdown:hover .dropbtn {
+                            
+                        }
+                    </style>
+                    <div id="PanelHearderMenu" class="PanelHearderMenuStyle">
+                        <ul class="nav nav-pills hidden-sm hidden-xs UlNavbarStyle">
+                            <li><a class="MenuLinkFontStyle" href="../../Index.aspx" title="SibeSalamat-Index"><span class="glyphicon glyphicon-home LogoMenusInHeaderStyle"></span>Home</a></li>
+                            <li><a class="MenuLinkFontStyle" href="../../Views/Popular.aspx" title="SibeSalamat-Services">Services</a></li>
+                            <li><a class="MenuLinkFontStyle" href="#" title="SibeSalamat-Information">Information</a></li>
+                            <li><a class="MenuLinkFontStyle" href="#" title="SibeSalamat-Patient">Patient Reviews</a></li>
+                            <li><a class="MenuLinkFontStyle" href="../../Views/Hospitals/Hospitals.aspx" title="SibeSalamat-Blog">Hospital</a></li>
+                            <li><a class="MenuLinkFontStyle" href="../../Views/Ticket/Ticketaspx.aspx" title="SibeSalamat-FreeQuote">Contact Us</a></li>
+                            <li><a class="MenuLinkFontStyle" href="../../Views/About-Us/AbouUs.aspx" title="SibeSalamat-About">About</a></li>
+
+                        </ul>
+
+
+
+
+                        <div class="hidden-lg hidden-md MenuHambergerStyle" onclick="myFunction(this);openNav(); lockScroll();">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+
+
+
+                        <div id="mySidenav" class="sidenav hidden-lg hidden-md">
+
+
+                            <br />
+                            <br />
+                            <a href="../../Index.aspx" title="SibeSalamat-Index">Home</a>
+                            <hr />
+                            <a href="../../Views/Pobular.aspx" title="SibeSalamat-Services">Services</a>
+                            <hr />
+                            <a href="#" title="SibeSalamat-Information">Information</a>
+                            <hr />
+                            <a href="#" title="SibeSalamat-Patient">Patient Reviews</a>
+                            <hr />
+                            <a href="../../Views/Hospitals/Hospitals.aspx" title="SibeSalamat-Blog">Hospital</a>
+                            <hr />
+                            <a href="../../Views/Ticket/Ticketaspx.aspx" title="SibeSalamat-FreeQuote">Contact Us</a>
+                            <hr />
+                            <a href="../../Views/About-Us/AbouUs.aspx" title="SibeSalamat-About">About</a>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <%-- #Social --%>
+            <%-- #Lg --%>
+
+            <div class="row SocialNetworksLgStyle hidden-xs hidden-sm">
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle1 ">
+                    </div>
+                </a>
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle2 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle3 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle4 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle5 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle6 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle7 ">
+                    </div>
+                </a>
+
+
+            </div>
+
+            <%-- #Sm --%>
+            <div class="row SocialNetworksSmStyle hidden-md hidden-xs hidden-lg">
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle1 ">
+                    </div>
+                </a>
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle2 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle3 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle4 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle5 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle6 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle7 ">
+                    </div>
+                </a>
+
+
+            </div>
+
+
+            <%-- #Xs --%>
+            <div class="row SocialNetworksXsStyle hidden-md hidden-sm hidden-lg">
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle1 ">
+                    </div>
+                </a>
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle2 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle3 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle4 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle5 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle6 ">
+                    </div>
+                </a>
+
+                <a href="#" title="Social-Media">
+                    <div class="row SocialNetworksImgStyle7">
+                    </div>
+                </a>
+
+
+            </div>
+
+
+
+
+
+
+            <div id="continear" class="row">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <%-- #Lg Foteer --%>
+
+
+            <div id="FooterLg" class="row FoteerStyle text-center hidden-sm hidden-xs hidden-md">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 2%; margin-bottom: 10%;">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-left">
+                        <a class="TitrTextFoteerStyle">
+                            <p>PROCEDURES</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Heart Treatment 
+                            <p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Neurology and Psychiatry<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Internal Neurology<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Neurology Surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Infectious<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Diabetes<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Physiotherapy<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Nuclear Medicine<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Lung Treatment<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Kidney Surger<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Kidney Treatment<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Liver Surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Liver Treatment<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Glands Treatment<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Chemotherapy
+                            <p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Oncology<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Orthopedic<p title="OthersServices"></p>
+                        </a>
+
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-left" style="margin-top: 4.2%;">
+                        <a href="#" target="_blank">
+                            <p></p>
+                        </a>
+
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Knee and Joint Specialist<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Rheumatology<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Otolaryngology
+                            <p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Rhinoplasty<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Blood Medicine<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">General Surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Thorax Surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Angioplasty
+                            <p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Varicose Veins<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Plastic surgery:<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Genioplasty<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Rhinoplasty<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Tummy tuck<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Breast augmentation<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Weight loss surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Butt lift<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Non-Surgical Plastic<p title="OthersServices"></p>
+                        </a>
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-left" style="margin-top: 4.2%;">
+                        <a href="#" target="_blank">
+                            <p></p>
+                        </a>
+
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">botox injection<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Liposuction<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Face lift<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Lip augmentation<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Dermal fillers<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Beauty Specialist<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Hair Transplant<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Dentistry<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Dental implant<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Dental veneers<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Eye surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Eye lift<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">ENT (Ear, Nose and Throat)<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Ivf<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">Fertility treatments
+                            <p title="OthersServices"></p>
+                        </a>
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-left">
+                        <a class="TitrTextFoteerStyle text-left">
+                            <p title="Address">ADDRESSES:</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">
+                            <address title="Address">Tabriz: Near by Nur Nejat hospital,</address>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">
+                            <address title="Address">Hafez street, Tabriz, Iran</address>
+                        </a>
+                        <br />
+                        <a class="TitrTextFoteerStyle text-left">
+                            <p>CONTACT US:</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">
+                            <p title="Email">Email: info@tabrizhealthtourism.com</p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerStyle">
+                            <p title="Social">Whatsapp/Viber/Telegram/Skyp/Imo</p>
+                        </a>
+                        <a class="ZirTitrTextFoteerStyle">
+                            <p title="Tell">Number: +98 914 739 2481</p>
+                        </a>
+                        <a class="ZirTitrTextFoteerStyle">
+                            <p title="Tell">Office Number: +98 413 335 2656</p>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <%-- #Md Foteer --%>
+
+
+            <div id="FooterMd" class="row FoteerMdStyle text-center hidden-sm hidden-xs hidden-lg">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 2%; margin-bottom: 10%;">
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-left">
+                        <a class="TitrTextFoteerMdStyle">
+                            <p>PROCEDURES</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Heart Treatment 
+                            <p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Neurology and Psychiatry<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Internal Neurology<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Neurology Surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Infectious<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Diabetes<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Physiotherapy<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Nuclear Medicine<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Lung Treatment<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Kidney Surger<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Kidney Treatment<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Liver Surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Liver Treatment<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Glands Treatment<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Chemotherapy
+                            <p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Oncology<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Orthopedic<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Knee and Joint Specialist<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Rheumatology<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Otolaryngology
+                            <p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Rhinoplasty<p title="OthersServices"></p>
+                        </a>
+
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-left" style="margin-top: 6%;">
+                        <a href="#" target="_blank">
+                            <p></p>
+                        </a>
+
+
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Blood Medicine<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">General Surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Thorax Surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Angioplasty
+                            <p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Varicose Veins<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Plastic surgery:<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Genioplasty<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Rhinoplasty<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Tummy tuck<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Breast augmentation<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Weight loss surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Butt lift<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Non-Surgical Plastic<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">botox injection<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Liposuction<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Face lift<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Lip augmentation<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Dermal fillers<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Beauty Specialist<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Hair Transplant<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Dentistry<p title="OthersServices"></p>
+                        </a>
+
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-left" style="margin-top: 6%;">
+                        <a href="#" target="_blank">
+                            <p></p>
+                        </a>
+
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Dental implant<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Dental veneers<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Eye surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Eye lift<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">ENT (Ear, Nose and Throat)<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Ivf<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">Fertility treatments
+                            <p title="OthersServices"></p>
+                        </a>
+                        <a class="TitrTextFoteerMdStyle text-left">
+                            <p title="Address">ADDRESSES:</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">
+                            <address title="Address">Tabriz: Near by Nur Nejat hospital,</address>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">
+                            <address title="Address">Hafez street, Tabriz, Iran</address>
+                        </a>
+                        <br />
+                        <a class="TitrTextFoteerMdStyle text-left">
+                            <p>CONTACT US:</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">
+                            <p title="Email">Email: info@tabrizhealthtourism.com</p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerMdStyle">
+                            <p title="Social">Whatsapp/Viber/Telegram/Skyp/Imo</p>
+                        </a>
+                        <a class="ZirTitrTextFoteerMdStyle">
+                            <p title="Tell">Number: +98 914 739 2481</p>
+                        </a>
+                        <a class="ZirTitrTextFoteerMdStyle">
+                            <p title="Tell">Office Number: +98 413 335 2656</p>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+            <%-- #Sm Foteer --%>
+
+
+
+            <div id="FooterSm" class="row FoteerSmStyle text-center hidden-lg hidden-md hidden-xs">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 2%; margin-bottom: 10%;">
+
+                    <div class="col-lg-6 col-md6 col-sm-6 col-xs-6 text-left">
+                        <a class="TitrTextFoteerSmStyle">
+                            <p>PROCEDURES</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Heart Treatment 
+                            <p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Neurology and Psychiatry<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Internal Neurology<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Neurology Surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Infectious<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Diabetes<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Physiotherapy<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Nuclear Medicine<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Lung Treatment<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Kidney Surger<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Kidney Treatment<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Liver Surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Liver Treatment<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Glands Treatment<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Chemotherapy
+                            <p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Oncology<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Orthopedic<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Knee and Joint Specialist<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Rheumatology<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Otolaryngology
+                            <p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Rhinoplasty<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Blood Medicine<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">General Surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Thorax Surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Angioplasty
+                            <p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Varicose Veins<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Plastic surgery:<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Genioplasty<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Rhinoplasty<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Tummy tuck<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Breast augmentation<p title="OthersServices"></p>
+                        </a>
+
+
+                    </div>
+                    <div class="col-lg-6 col-md6 col-sm-6 col-xs-6 text-left" style="margin-top: 6%;">
+                        <a href="#" target="_blank">
+                            <p></p>
+                        </a>
+
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Weight loss surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Butt lift<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Non-Surgical Plastic<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">botox injection<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Liposuction<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Face lift<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Lip augmentation<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Dermal fillers<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Beauty Specialist<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Hair Transplant<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Dentistry<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Dental implant<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Dental veneers<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Eye surgery<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Eye lift<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">ENT (Ear, Nose and Throat)<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Ivf<p title="OthersServices"></p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">Fertility treatments
+                            <p title="OthersServices"></p>
+                        </a>
+                        <br />
+                        <br />
+
+                        <a class="TitrTextFoteerSmStyle text-left">
+                            <p title="Address">ADDRESSES:</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">
+                            <address title="Address">Tabriz: Near by Nur Nejat hospital,</address>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">
+                            <address title="Address">Hafez street, Tabriz, Iran</address>
+                        </a>
+                        <br />
+                        <a class="TitrTextFoteerSmStyle text-left">
+                            <p>CONTACT US:</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">
+                            <p title="Email">Email: info@tabrizhealthtourism.com</p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerSmStyle">
+                            <p title="Social">Whatsapp/Viber/Telegram/Skyp/Imo</p>
+                        </a>
+                        <a class="ZirTitrTextFoteerSmStyle">
+                            <p title="Tell">Number: +98 914 739 2481</p>
+                        </a>
+                        <a class="ZirTitrTextFoteerSmStyle">
+                            <p title="Tell">Office Number: +98 413 335 2656</p>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+            <%-- #Xs Foteer--%>
+            <div id="FooterXs" class="row FoteerXsStyle text-center hidden-lg hidden-md hidden-sm">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 2%; margin-bottom: 5%;">
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
+
+                        <a class="TitrTextFoteerXsStyle text-left">
+                            <p title="Address">ADDRESSES:</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerXsStyle">
+                            <address title="Address">Tabriz: Near by Nur Nejat hospital,</address>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerXsStyle">
+                            <address title="Address">Hafez street, Tabriz, Iran</address>
+                        </a>
+                        <br />
+                        <a class="TitrTextFoteerXsStyle text-left">
+                            <p>CONTACT US:</p>
+                        </a>
+                        <br />
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerXsStyle">
+                            <p title="Email">Email: info@tabrizhealthtourism.com</p>
+                        </a>
+                        <a href="#" target="_blank" class="ZirTitrTextFoteerXsStyle">
+                            <p title="Social">Whatsapp/Viber/Telegram/Skyp/Imo</p>
+                        </a>
+                        <a class="ZirTitrTextFoteerXsStyle">
+                            <p title="Tell">Number: +98 914 739 2481</p>
+                        </a>
+                        <a class="ZirTitrTextFoteerXsStyle">
+                            <p title="Tell">Office Number: +98 413 335 2656</p>
+                        </a>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-menu-up"></span></button>
+
+        </div>
+    </form>
+</body>
+</html>

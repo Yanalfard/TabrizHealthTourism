@@ -1,0 +1,163 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteProfile.master.cs" Inherits="sibesalamat.Views.Profile.Master.SiteProfile1" %>
+
+<!DOCTYPE html>
+<
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr">
+<head runat="server">
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>Profile SibeSalamat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SibeSalamat rofile" />
+    <meta name="keywords" content="SibeSalamat,Profile" />
+    <meta name="language" content="en-US" />
+    <link rel="icon" href="../../Resources/Master/Logo/LogoSibeSalamat.png" />
+    <script src="https://www.google.com/recaptcha/api.js?render=put your site key here"></script>
+
+    <script src="../../../Scripts/jquery-1.9.1.min.js"></script>
+    <script src="../../../Scripts/bootstrap.min.js"></script>
+    <link href="../../../Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="../../../Content/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="../../../Views/Profile/Master/SiteProfile.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="container-fluid">
+            <div id="Header" class="row">
+                <img src="../../../Resources/Master/Header/headerlogoRowOne.png" class="ImgheaderlogoRowOneStyle img-responsive" alt="SibesSalamat-HeaderlogoRowOne" title="SibesSalamat-HeaderlogoRowOne" />
+
+                <div id="PanelHearder" class="text-center">
+
+                    <div id="PanelHearderImage" class="row DivPositionTextLogoutStyle">
+                        <a class="LblLogoutStyle " href="../../Index.aspx" title="Logout-SibeSalamat">Log out</a>
+                    </div>
+                    <div class="row DivPositionTextSelectLanguageStyle">
+                        <img src="../../../Resources/Master/Header/SelectLanguageImg.png" class="SelectLanguageImgStyle" />
+                        <a class="LbllanguageStyle " href="#" title="Select-language-SibeSalamat">Select language</a>
+                    </div>
+                </div>
+                <style>
+                    .ProfileImgLeftStyle {
+                        width: 8%;
+                        position: absolute;
+                        margin-top: 10%;
+                        z-index: -1;
+                    }
+
+                    .ProfileImgRightStyle {
+                        width: 8%;
+                        position: absolute;
+                        margin-top: 23%;
+                        margin-left: 92%;
+                        z-index: -1;
+                    }
+                </style>
+                <img src="../../Resources/Profile/ProfileImgLeft.png" class="ProfileImgLeftStyle" />
+                <img src="../../Resources/Profile/ProfileImgRight.png" class="ProfileImgRightStyle" />
+
+            </div>
+
+
+            <div id="Content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <style>
+                #Footer{
+                    z-index:2;
+                    padding: 1% 7% 2% 7%;
+                }
+                .TextTitrRow3ProfileStyle {
+                    font-weight: bold;
+                    color: black;
+                    font-family: Arial;
+                    font-size: 1.3vw;
+                }
+
+                .TextZirTitrRow3ProfileStyle {
+                    color: black;
+                    font-family: Arial;
+                    font-size: 1.3vw;
+                }
+            </style>
+
+            <div id="Footer" class="row hidden-sm hidden-xs">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <p class="TextTitrRow3ProfileStyle">
+                        CONTACT US:
+                    </p>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <p class="TextZirTitrRow3ProfileStyle" title="Email-Address-SibeSalamat-Profile">
+                            Email: info@tabrizhealthtourism.com
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <p class="TextZirTitrRow3ProfileStyle" title="Number-Social-Media-SibeSalamat-Profile">
+                            Whatsapp/Viber/Telegram/Skyp/Imo Number:+98 914 739 2481
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-left">
+                        <p class="TextZirTitrRow3ProfileStyle" title="Number-SibeSalamat-Profile">
+                            Office Number:+98 41 3335 2656
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <%-- #Sm --%>
+             <style>
+                #Footer{
+                    z-index:2;
+                }
+                .TextTitrRow3ProfileSmStyle {
+                    font-weight: bold;
+                    color: black;
+                    font-family: Arial;
+                    font-size: 2vw;
+                }
+
+                .TextZirTitrRow3ProfileSmStyle {
+                    color: black;
+                    font-family: Arial;
+                    font-size: 2vw;
+                }
+            </style>
+
+            <div id="FooterSm" class="row hidden-lg hidden-md">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <p class="TextTitrRow3ProfileSmStyle">
+                        CONTACT US:
+                    </p>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <p class="TextZirTitrRow3ProfileSmStyle" title="Email-Address-SibeSalamat-Profile">
+                            Email: info@tabrizhealthtourism.com
+                        </p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <p class="TextZirTitrRow3ProfileSmStyle" title="Number-Social-Media-SibeSalamat-Profile">
+                            Whatsapp/Viber/Telegram/Skyp/Imo Number:+98 914 739 2481
+                        </p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <p class="TextZirTitrRow3ProfileSmStyle" title="Number-SibeSalamat-Profile">
+                            Office Number:+98 41 3335 2656
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </form>
+
+</body>
+</html>

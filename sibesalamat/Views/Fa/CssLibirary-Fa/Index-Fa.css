@@ -1,0 +1,819 @@
+﻿.SliderDivTextHealthIndexFaStyle {
+    position: absolute;
+    margin-top: 0.8%;
+    margin-right: 7.5%;
+}
+
+.SliderTitrHealthIndexFaStyle {
+    font-size: 6vw;
+    font-weight: bold;
+    color: rgba(11,142,54,1);
+    font-family:Arial;
+}
+
+.SliderZirDivTextHealthIndexFaStyle {
+    position: absolute;
+    margin-top: 8.5%;
+    margin-right: 7.5%;
+}
+
+.SliderZirTitrHealthIndexFaStyle {
+    font-size: 3vw;
+    font-weight: bold;
+    color: rgba(11,142,54,1);
+    font-family: Arial;
+}
+
+.SliderDivIncludinTextTitrIndexFaStyle {
+    position: absolute;
+    margin-top: 12%;
+    margin-right: 7.5%;
+}
+
+.SliderIncludinTextTitrIndexFaStyle {
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgba(0,76,52,1);
+    font-family: Arial;
+}
+
+.SliderDivIncludinTextZirTitrIndexFaStyle {
+    position: absolute;
+    margin-top: 15%;
+    margin-right: 7.5%;
+}
+
+.SliderIncludinTextZirTitrIndexFaStyle {
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: rgba(0,76,52,1);
+    font-family: Arial;
+}
+
+.SliderBtnRegisterIndexFaStyle {
+    position: absolute;
+    margin-top: 20%;
+    margin-right: 7%;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+    .SliderBtnRegisterIndexFaStyle:hover {
+        position: absolute;
+        margin-top: -15%;
+        margin-right: 7%;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.SliderBtnRegisterTextIndexFaStyle {
+    color: white;
+    background-color: rgba(141,198,63,1);
+    border-radius: 25px;
+    font-size: 1.4vw;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+    .SliderBtnRegisterTextIndexFaStyle:hover {
+        color: white;
+        background-color: rgba(141,198,63,1);
+        border-radius: 25px;
+        font-size: 1.4vw;
+        font-weight: bold;
+        font-family: Arial;
+    }
+
+.Slider1IndexFaStyle {
+    width: 70%;
+    position: absolute;
+    margin-top: 22%;
+    margin-right: 24%;
+    opacity: 1;
+    transform: scaleX(-1);
+}
+
+.Slider2IndexFaStyle {
+    width: 50%;
+    position: absolute;
+    margin-top: 8%;
+    margin-right: 42%;
+    opacity: 0;
+    transform: scaleX(-1);
+}
+
+.Slider7IndexFaStyle {
+    width: 28%;
+    position: absolute;
+    margin-top: 1%;
+    margin-right: 56%;
+    opacity: 0;
+    transform: scaleX(-1);
+}
+
+.Slider4IndexFaStyle {
+    width: 9%;
+    position: absolute;
+    margin-top: 16%;
+    margin-right: 58%;
+    opacity: 0;
+    transform: scaleX(-1);
+}
+
+.Slider3IndexFaStyle {
+    width: 10%;
+    position: absolute;
+    margin-top: 5%;
+    margin-right: 86%;
+    opacity: 0;
+    transform: scaleX(-1);
+}
+
+.Slider5IndexFaStyle {
+    width: 12%;
+    position: absolute;
+    margin-top: 10%;
+    margin-right: 20%;
+    opacity: 0;
+    transform: scaleX(-1);
+}
+
+.Slider6IndexFaStyle {
+    width: 9%;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 7%;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+    .Slider6IndexFaStyle:hover {
+        width: 12%;
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 7%;
+        transition: 0.5s;
+    }
+
+.Slider9IndexFaStyle {
+    width: 30%;
+    position: absolute;
+    margin-top: 2.5%;
+    margin-left: 7%;
+}
+
+.Slider8IndexFaStyle {
+    width: 14%;
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 7%;
+}
+
+
+
+
+
+
+
+
+
+
+.PanelLblPopularTreatmentsIndexFaStyle {
+}
+
+.LblPopularTreatmentsIndexFaStyle {
+    color: #004a33;
+    font-size: 3em;
+    text-decoration: none;
+    font-family: W_yekan;
+    text-align: center;
+}
+
+    .LblPopularTreatmentsIndexFaStyle:hover {
+        color: #004a33;
+        font-size: 3em;
+        text-decoration: none;
+        font-family: W_yekan;
+        text-align: center;
+    }
+
+.PanelPopularTreatmentsBoxIndexFaStyle {
+    margin-top: 37%;
+}
+
+.BoxShadobPopularTreatmentsIndexFaStyle {
+    /*box-shadow: 3px 3px 3px #aaaaaa;*/
+    /*overflow: hidden;*/
+    /*border-radius:20%;*/
+}
+
+.MarginLeftBoxShadobPopularTreatmentsIndexFaStyle {
+    margin-left: 15%;
+}
+
+.MarginMLeftBoxShadobPopularTreatmentsIndexFaStyle {
+    margin-left: -15%;
+}
+
+.ImagePopularTreatments1IndexFaStyle {
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 5px 5px 5px #e0e0e0;
+    border-radius: 35px;
+    /* box-shadow */
+    box-shadow: rgba(0,0,0,0.3) 5px 5px 3px;
+    border-collapse: collapse;
+
+  
+    
+
+}
+
+.ImagePopularTreatments2IndexFaStyle {
+    width: 50%;
+    margin-top: -15%;
+    transition: 1s;
+    margin-left: 13%;
+}
+
+    .ImagePopularTreatments2IndexFaStyle:hover {
+        transition: 1s;
+        transform: scale(1.1);
+    }
+
+
+.DivBtnSeeMoreIndexFaStyle {
+    margin-top: 2%;
+}
+
+.BtnSeeMoreIndexFaStyle {
+    background-color: #8dc63f;
+    color: white;
+    font-size: 1.5vw;
+    border: none;
+    font-family: W_yekan;
+    border-radius: 25px;
+}
+
+    .BtnSeeMoreIndexFaStyle:hover {
+        background-color: #8dc63f;
+        color: white;
+        font-size: 1.5vw;
+        border: none;
+        font-family: W_yekan;
+    }
+
+
+.DivVideos {
+    margin-top: 7%;
+}
+
+.VideobackgroundIndexFaStyle {
+    width: 100%;
+}
+
+.LblTextVideoIndexFaStyle {
+    color: #004a33;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: W_yekan;
+    text-align: center;
+}
+
+    .LblTextVideoIndexFaStyle:hover {
+        color: #004a33;
+        font-size: 2vw;
+        text-decoration: none;
+        font-family: W_yekan;
+        text-align: center;
+    }
+
+.ImagevidetextIndexFaStyle {
+    width: 100%;
+}
+
+.DivSibesalamatServicesIndexFaStyle {
+    margin-top: 5%;
+}
+
+.SibeSalamatServicesImgIndexFaStyle {
+    width: 100%;
+    transition: 0.5s;
+}
+
+    .SibeSalamatServicesImgIndexFaStyle:hover {
+        width: 100%;
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+.VideosImgIndexFaStyle {
+}
+
+
+.FontWellcomeTabrizVideoIndexFaStyle {
+    font-size: 5em;
+    font-weight: bold;
+    margin-top: 1%;
+    font-family: W_yekan;
+}
+
+.ZirFontWellcomeTabrizVideoIndexFaStyle {
+    font-size: 1em;
+    font-family: W_yekan;
+}
+
+.SibesalamatBoxImgTextIndexFaStyle {
+    overflow: hidden;
+    height: 100%;
+}
+
+.Row2SibesalamatBoxImgTextIndexFaStyle {
+    margin-top: 5%;
+}
+
+
+.PanelMapAddresIndexFaStyle {
+    margin-bottom: -14.8%;
+    margin-top: 5%;
+}
+
+.PayinePanelMapAddresIndexFaStyle {
+}
+
+
+
+
+
+
+.LblNameLogoSibeSalamatServicesIndexFaStyle {
+    color: black;
+    font-size: 1.2vw;
+    text-decoration: none;
+    font-family: W_yekan;
+    font-weight: bold;
+}
+
+    .LblNameLogoSibeSalamatServicesIndexFaStyle:hover {
+        color: black;
+        font-size: 1.2vw;
+        text-decoration: none;
+        font-family: W_yekan;
+        font-weight: bold;
+    }
+
+.LblZirNameLogoSibeSalamatServicesIndexFaStyle {
+    color: black;
+    font-size: 0.9vw;
+    text-decoration: none;
+    font-family: W_yekan;
+    text-align: justify;
+}
+
+    .LblZirNameLogoSibeSalamatServicesIndexFaStyle:hover {
+        color: black;
+        font-size: 0.9vw;
+        text-decoration: none;
+        font-family: W_yekan;
+        text-align: justify;
+    }
+
+.DivZirNameLogoSibeSalamatServices {
+    overflow: hidden;
+}
+
+.DivNameLogoSibeSalamatServices {
+    margin-top: 3%;
+}
+
+
+
+
+/*---#MapIndexFaStyle*/
+
+.gmap_mapAddressLgIndexFaStyle {
+    overflow: hidden;
+    background: none !important;
+}
+
+.gmap_mapAddressSmiframeLgIndexFaStyle {
+    height: 300px;
+}
+
+
+.VideosImgLgIndexFaStyle {
+    width: 70%;
+    margin-top: 1%;
+}
+
+.DivVideoTextImgLgIndexFaStyle {
+    margin-right: -9%;
+    margin-top: 2%;
+}
+
+.DivTextVideoPubularLgIndexFaStyle {
+    margin-top: 3%;
+    margin-right: -8%;
+}
+
+.TextVideoPubularLgIndexFaStyle {
+    color: black;
+    font-weight: bold;
+    font-family: W_yekan;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+    .TextVideoPubularLgIndexFaStyle:hover {
+        color: black;
+        font-weight: bold;
+        font-family: W_yekan;
+        font-size: 1.2em;
+        text-decoration: none;
+    }
+
+
+
+.FontWellcomeTabrizVideoLgIndexFaStyle {
+    color: #004a33;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: W_yekan;
+    text-align: center;
+}
+
+.ZirFontWellcomeTabrizVideoLgIndexFaStyle {
+    color: black;
+    font-family: W_yekan;
+    font-size: 1.5em;
+}
+
+
+
+/*Abut us Lg*/
+.DivAboutLgIndexFaStyle {
+    margin-top: 5%;
+   
+}
+
+.DivZirSliderAboutUsTitrLgIndexFaStyle {
+}
+
+.TitrAboutUsLgIndexFaStyle {
+    color: #004a33;
+    font-size: 3vw;
+    text-decoration: none;
+    font-family: W_yekan;
+    text-align: center;
+    z-index: 2;
+}
+
+.TitrAboutUsLgIndexFaStyle:hover {
+    color: #004a33;
+    font-size: 3vw;
+    text-decoration: none;
+    font-family: W_yekan;
+    text-align: center;
+    z-index: 2;
+}
+
+.DivZirAboutUsZirTitrLgIndexFaStyle {
+    padding: 0% 2% 0%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.ZirTitrAboutUsLgIndexFaStyle {
+    color: black;
+    font-family: W_yekan;
+    font-size: 1.5em;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#Sm IndexFaStyle*/
+
+.DivBtnSeeMoreSmIndexFaStyle {
+    margin-top: 2%;
+}
+
+.BtnSeeMoreSmIndexFaStyle {
+    background-color: #8dc63f;
+    color: white;
+    font-size: 1.6em;
+    border: none;
+    font-family: W_yekan;
+    border-radius: 25px;
+}
+
+
+.DivSibesalamatServicesSmIndexFaStyle {
+    margin-top: 5%;
+    padding-left: 5%;
+}
+
+
+.LblNameLogoSibeSalamatServicesSmIndexFaStyle {
+    color: black;
+    font-size: 2.5vw;
+    text-decoration: none;
+    font-family: W_yekan;
+    font-weight: bold;
+}
+
+    .LblNameLogoSibeSalamatServicesSmIndexFaStyle:hover {
+        color: black;
+        font-size: 2.5vw;
+        text-decoration: none;
+        font-family: W_yekan;
+        font-weight: bold;
+    }
+
+.LblZirNameLogoSibeSalamatServicesSmIndexFaStyle {
+    color: black;
+    font-size: 1.8vw;
+    text-decoration: none;
+    font-family: W_yekan;
+    text-align: justify;
+}
+
+    .LblZirNameLogoSibeSalamatServicesSmIndexFaStyle:hover {
+        color: black;
+        font-size: 1.8vw;
+        text-decoration: none;
+        font-family: W_yekan;
+        text-align: justify;
+    }
+
+
+
+.FontWellcomeTabrizVideoSmIndexFaStyle {
+    color: #004a33;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: W_yekan;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.ZirFontWellcomeTabrizVideoSmIndexFaStyle {
+    color: black;
+    font-family: W_yekan;
+    font-size: 1.3em;
+}
+
+.VideosImgSmIndexFaStyle {
+    width: 100%;
+    margin-top: 1%;
+}
+
+.DivVideoTextImgSmIndexFaStyle {
+    margin-right: -17%;
+    margin-top: 1%;
+}
+
+.DivTextVideoPubularSmIndexFaStyle {
+    margin-top: 3%;
+    margin-right: -5%;
+}
+
+.TextVideoPubularSmIndexFaStyle {
+    color: black;
+    font-weight: bold;
+    font-family: W_yekan;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+    .TextVideoPubularSmIndexFaStyle:hover {
+        color: black;
+        font-weight: bold;
+        font-family: W_yekan;
+        font-size: 1.2em;
+        text-decoration: none;
+    }
+
+
+
+/*---#MapIndexFaStyle*/
+
+.gmap_mapAddressSmIndexFaStyle {
+    overflow: hidden;
+    background: none !important;
+}
+
+.gmap_mapAddressSmiframeSmIndexFaStyle {
+    height: 200px;
+}
+
+
+/*#Abut Us SM*/
+.DivAboutSmIndexFaStyle {
+    margin-top: 5%;
+    z-index: 2;
+}
+
+.DivZirSliderAboutUsTitrSmIndexFaStyle {
+}
+
+.TitrAboutUsSmIndexFaStyle {
+    color: #004a33;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: W_yekan;
+    text-align: center;
+    z-index: 2;
+}
+
+.DivZirAboutUsZirTitrSmIndexFaStyle {
+    padding: 0% 2% 0%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.ZirTitrAboutUsSmIndexFaStyle {
+    color: black;
+    font-family: W_yekan;
+    font-size: 1.3em;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----#Xs*/
+.DivPopularTreatmentsMarginTopXsStyle{
+    margin-top:5%;
+}
+
+.LblNameLogoSibeSalamatServicesXsIndexFaStyle {
+    color: black;
+    font-size: 3vw;
+    text-decoration: none;
+    font-family: W_yekan;
+    font-weight: bold;
+}
+
+    .LblNameLogoSibeSalamatServicesXsIndexFaStyle:hover {
+        color: black;
+        font-size: 3vw;
+        text-decoration: none;
+        font-family: W_yekan;
+        font-weight: bold;
+    }
+
+.LblZirNameLogoSibeSalamatServicesXsIndexFaStyle {
+    color: black;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: W_yekan;
+    text-align: justify;
+}
+
+    .LblZirNameLogoSibeSalamatServicesXsIndexFaStyle:hover {
+        color: black;
+        font-size: 2.1vw;
+        text-decoration: none;
+        font-family: W_yekan;
+        text-align: justify;
+    }
+
+
+.DivSibesalamatServicesXsIndexFaStyle {
+    margin-top: 5%;
+}
+
+
+
+.VideosImgXsIndexFaStyle {
+    width: 100%;
+    margin-top: 1%;
+}
+
+.DivVideoTextImgXsIndexFaStyle {
+}
+
+.DivTextVideoPubularXsIndexFaStyle {
+    margin-right: -7%;
+    margin-top: 5%;
+}
+
+.TextVideoPubularXsIndexFaStyle {
+    color: black;
+    font-weight: bold;
+    font-family: W_yekan;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+    .TextVideoPubularXsIndexFaStyle:hover {
+        color: black;
+        font-weight: bold;
+        font-family: W_yekan;
+        font-size: 1.1em;
+        text-decoration: none;
+    }
+
+.VideosImgXsIndexFaStyle {
+    width: 100%;
+}
+
+.FontWellcomeTabrizVideoXsIndexFaStyle {
+    color: #004a33;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: W_yekan;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.ZirFontWellcomeTabrizVideoXsIndexFaStyle {
+    color: black;
+    font-family: W_yekan;
+    font-size: 1.1em;
+}
+
+
+/*#About Us*/
+
+.DivAboutXsIndexFaStyle {
+    margin-top: 5%;
+    z-index: 2;
+}
+
+.DivZirSliderAboutUsTitrXsIndexFaStyle {
+}
+
+.TitrAboutUsXsIndexFaStyle {
+    color: #004a33;
+    font-size: 3vw;
+    text-decoration: none;
+    font-family: W_yekan;
+    text-align: center;
+    z-index: 2;
+}
+
+.DivZirAboutUsZirTitrXsIndexFaStyle {
+    padding: 0% 2% 0%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.ZirTitrAboutUsIndexFaStyle {
+    color: black;
+    font-family: W_yekan;
+    font-size: 0.9em;
+    z-index: 2;
+}
+
+
+.LblPopularTreatmentsXsIndexFaStyle {
+    color: #004a33;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: W_yekan;
+    text-align: center;
+}
+
+    .LblPopularTreatmentsXsIndexFaStyle:hover {
+        color: #004a33;
+        font-size: 2em;
+        text-decoration: none;
+        font-family: W_yekan;
+        text-align: center;
+    }
+
+.PanelPopularTreatmentsBoxXsIndexFaStyle {
+    margin-top: 45%;
+}
+.ImagePopularTreatments1IndexXsFaStyle {
+    width: 90%;
+   
+    box-shadow: 5px 5px 5px #e0e0e0;
+    border-radius: 35px;
+    /* box-shadow */
+    box-shadow: rgba(0,0,0,0.3) 5px 5px 3px;
+    border-collapse: collapse;
+}
+

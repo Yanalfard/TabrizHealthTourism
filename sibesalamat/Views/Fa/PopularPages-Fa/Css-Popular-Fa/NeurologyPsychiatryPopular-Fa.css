@@ -1,0 +1,609 @@
+﻿.PanelNeurologyPsychiatryStyle {
+}
+
+.ImgHeaderNeurologyPsychiatryStyle {
+    width: 100%;
+    transform: scaleX(-1)
+}
+
+.DivVideoAndTextNeurologyPsychiatryStyle {
+    margin-top: 5%;
+}
+
+.VideoNeurologyPsychiatryStyle {
+    width: 100%;
+}
+
+.TitrTextVideoNeurologyPsychiatryStyle {
+    font-family: W_yekan;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoNeurologyPsychiatryStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoNeurologyPsychiatryStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.SliderDivTextNeurologyPsychiatryStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 5%;
+}
+
+.SliderTitrNeurologyPsychiatryStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextNeurologyPsychiatryStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-right: 5%;
+}
+
+.SliderZirTitrNeurologyPsychiatryStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionNeurologyPsychiatryTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-right: 5.5%;
+}
+
+.SliderDescriptionNeurologyPsychiatryTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnNeurologyPsychiatrySingInStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-right: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnNeurologyPsychiatrySingInStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-right: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnNeurologyPsychiatryStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnNeurologyPsychiatryStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextNeurologyPsychiatryStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextNeurologyPsychiatryStyle {
+    font-family: W_yekan;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.DescaptirionOrginalNeurologyPsychiatryStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneNeurologyPsychiatryStyle {
+}
+
+.Pic3NeurologyPsychiatryRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOneNeurologyPsychiatryStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneNeurologyPsychiatryStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOneNeurologyPsychiatryStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoNeurologyPsychiatryStyle {
+    margin-top: 10%;
+}
+
+.Pic1NeurologyPsychiatryRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoNeurologyPsychiatryStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoNeurologyPsychiatryStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoNeurologyPsychiatryStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowThreeNeurologyPsychiatryStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2NeurologyPsychiatryRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreeNeurologyPsychiatryStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeNeurologyPsychiatryStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreeNeurologyPsychiatryStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+/*#Sm*/
+.PanelNeurologyPsychiatrySmStyle {
+}
+
+.ImgHeaderNeurologyPsychiatrySmStyle {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.SliderDivTextNeurologyPsychiatrySmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 5%;
+}
+
+.SliderTitrNeurologyPsychiatrySmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextNeurologyPsychiatrySmStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-right: 5%;
+}
+
+.SliderZirTitrNeurologyPsychiatrySmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionNeurologyPsychiatryTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-right: 5.5%;
+}
+
+.SliderDescriptionNeurologyPsychiatryTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnNeurologyPsychiatrySingInSmStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-right: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnNeurologyPsychiatrySingInSmStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-right: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnNeurologyPsychiatrySmStyle {
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+    .TextBtnNeurologyPsychiatrySmStyle:hover {
+        color: white;
+        font-size: 2vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextNeurologyPsychiatrySmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextNeurologyPsychiatrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.7vw;
+    color: black;
+}
+
+.DivVideoAndTextNeurologyPsychiatrySmStyle {
+    margin-top: 5%;
+}
+
+.VideoNeurologyPsychiatrySmStyle {
+    width: 100%;
+}
+
+.DivZirVideoNeurologyPsychiatrySmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoNeurologyPsychiatrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoNeurologyPsychiatrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalNeurologyPsychiatrySmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneNeurologyPsychiatrySmStyle {
+}
+
+.Pic3NeurologyPsychiatryRowOneTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneNeurologyPsychiatrySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneNeurologyPsychiatrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneNeurologyPsychiatrySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneNeurologyPsychiatrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowTwoNeurologyPsychiatrySmStyle {
+    margin-top: 10%;
+}
+
+.Pic1NeurologyPsychiatryRowTwoTreatmentSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoNeurologyPsychiatrySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoNeurologyPsychiatrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoNeurologyPsychiatrySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoNeurologyPsychiatrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowThreeNeurologyPsychiatrySmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2NeurologyPsychiatryRowThreeTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeNeurologyPsychiatrySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeNeurologyPsychiatrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeNeurologyPsychiatrySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeNeurologyPsychiatrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+/* #Xs*/
+
+
+.PanelNeurologyPsychiatryXsStyle {
+}
+
+.ImgHeaderNeurologyPsychiatryXsStyle {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.SliderDivTextNeurologyPsychiatryXsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 3%;
+}
+
+.SliderTitrNeurologyPsychiatryXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextNeurologyPsychiatryXsStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-right: 3%;
+}
+
+.SliderZirTitrNeurologyPsychiatryXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionNeurologyPsychiatryTitrXsStyle {
+    position: absolute;
+    margin-top: -19%;
+    margin-right: 3.5%;
+}
+
+.SliderDescriptionNeurologyPsychiatryTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnNeurologyPsychiatrySingInXsStyle {
+    position: absolute;
+    margin-top: -8%;
+    margin-right: 60%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnNeurologyPsychiatrySingInXsStyle:hover {
+        position: absolute;
+        margin-top: -8%;
+        margin-right: 60%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnNeurologyPsychiatryXsStyle {
+    color: white;
+    font-size: 2.7vw;
+    font-weight: bold;
+}
+
+    .TextBtnNeurologyPsychiatryXsStyle:hover {
+        color: white;
+        font-size: 2.7vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextNeurologyPsychiatryXsStyle {
+    margin-top: 3%;
+}
+
+.ZirHeadersImgTextNeurologyPsychiatryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.3vw;
+    color: black;
+}
+
+.DivVideoAndTextNeurologyPsychiatryXsStyle {
+    margin-top: 5%;
+}
+
+.VideoNeurologyPsychiatryXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoNeurologyPsychiatryXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoNeurologyPsychiatryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoNeurologyPsychiatryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionOrginalNeurologyPsychiatryXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneNeurologyPsychiatryXsStyle {
+}
+
+.Pic3NeurologyPsychiatryTreatmentRowOneTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneNeurologyPsychiatryXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneNeurologyPsychiatryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneNeurologyPsychiatryXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneNeurologyPsychiatryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoNeurologyPsychiatryXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1NeurologyPsychiatryRowTwoTreatmentXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoNeurologyPsychiatryXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoNeurologyPsychiatryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoNeurologyPsychiatryXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoNeurologyPsychiatryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeNeurologyPsychiatryXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2NeurologyPsychiatryRowThreeTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeNeurologyPsychiatryXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeNeurologyPsychiatryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeNeurologyPsychiatryXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeNeurologyPsychiatryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}

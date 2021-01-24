@@ -1,0 +1,40 @@
+﻿body {
+    overflow: scroll;
+    overflow: auto;
+}
+
+.MyModalStyle {
+    margin-top: 50px;
+}
+
+.Txt_LoginSingUp_Style {
+    color: black;
+    font-size: 18px;
+    font-family: 'B Nazanin';
+}
+
+
+.Name_Moda_Login_Jquery-Style {
+    color: black;
+    font-size: 18px;
+    font-family: 'B Nazanin';
+}
+
+.Name_Moda_Login_Jquery_Style {
+    color: black;
+    font-size: 18px;
+    font-family: 'B Nazanin';
+    width:100%;
+}
+
+.RowMarginTop {
+    margin-top: 20px;
+}
+
+.RowMarginTopLabelStyle {
+    margin-top: 5px;
+}
+
+.RadioButtonStyle {
+    text-indent: 5px;
+}

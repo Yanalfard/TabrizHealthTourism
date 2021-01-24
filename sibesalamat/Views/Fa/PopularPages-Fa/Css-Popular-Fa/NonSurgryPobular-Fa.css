@@ -1,0 +1,609 @@
+﻿.PanelNonSurgryStyle {
+}
+
+.ImgHeaderNonSurgryStyle {
+    width: 100%;
+    transform: scaleX(-1)
+}
+
+.DivVideoAndTextNonSurgryStyle {
+    margin-top: 5%;
+}
+
+.VideoNonSurgryStyle {
+    width: 100%;
+}
+
+.TitrTextVideoNonSurgryStyle {
+    font-family: W_yekan;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTextVideoNonSurgryStyle {
+    margin-top: 3%;
+}
+
+.ZirTextVideoNonSurgryStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.SliderDivTextNonSurgryStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 5%;
+}
+
+.SliderTitrNonSurgryStyle {
+    color: rgba(12,144,68,1);
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextNonSurgryStyle {
+    position: absolute;
+    margin-top: -28%;
+    margin-right: 5%;
+}
+
+.SliderZirTitrNonSurgryStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionNonSurgryTitrStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-right: 5.5%;
+}
+
+.SliderDescriptionNonSurgryTextTitrStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnNonSurgrySingInStyle {
+    position: absolute;
+    margin-top: -9.5%;
+    margin-right: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnNonSurgrySingInStyle:hover {
+        position: absolute;
+        margin-top: -9.5%;
+        margin-right: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnNonSurgryStyle {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+    .TextBtnNonSurgryStyle:hover {
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextNonSurgryStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextNonSurgryStyle {
+    font-family: W_yekan;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.DescaptirionOrginalNonSurgryStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneNonSurgryStyle {
+}
+
+.Pic3NonSurgryRowOneStyle {
+    width: 65%;
+}
+
+.TitrTextRowOneNonSurgryStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneNonSurgryStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowOneNonSurgryStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowTwoNonSurgryStyle {
+    margin-top: 10%;
+}
+
+.Pic1NonSurgryRowTwoStyle {
+    width: 70%;
+}
+
+.TitrTextRowTwoNonSurgryStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoNonSurgryStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowTwoNonSurgryStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+.DescaptirionRowThreeNonSurgryStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2NonSurgryRowThreeStyle {
+    width: 65%;
+}
+
+.TitrTextRowThreeNonSurgryStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeNonSurgryStyle {
+    margin-top: 5%;
+}
+
+.ZirTitrTextRowThreeNonSurgryStyle {
+    font-family: W_yekan;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+/*#Sm*/
+.PanelNonSurgrySmStyle {
+}
+
+.ImgHeaderNonSurgrySmStyle {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.SliderDivTextNonSurgrySmStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 5%;
+}
+
+.SliderTitrNonSurgrySmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextNonSurgrySmStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-right: 5%;
+}
+
+.SliderZirTitrNonSurgrySmStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionNonSurgryTitrSmStyle {
+    position: absolute;
+    margin-top: -20%;
+    margin-right: 5.5%;
+}
+
+.SliderDescriptionNonSurgryTextTitrSmStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnNonSurgrySingInSmStyle {
+    position: absolute;
+    margin-top: -7%;
+    margin-right: 5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnNonSurgrySingInSmStyle:hover {
+        position: absolute;
+        margin-top: -7%;
+        margin-right: 5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnNonSurgrySmStyle {
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+    .TextBtnNonSurgrySmStyle:hover {
+        color: white;
+        font-size: 2vw;
+        font-weight: bold;
+    }
+
+.DivZirHeadersImgTextNonSurgrySmStyle {
+    margin-top: 2%;
+}
+
+.ZirHeadersImgTextNonSurgrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.7vw;
+    color: black;
+}
+
+.DivVideoAndTextNonSurgrySmStyle {
+    margin-top: 5%;
+}
+
+.VideoNonSurgrySmStyle {
+    width: 100%;
+}
+
+.DivZirVideoNonSurgrySmStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoNonSurgrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoNonSurgrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+.DescaptirionOrginalNonSurgrySmStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneNonSurgrySmStyle {
+}
+
+.Pic3NonSurgryRowOneTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneNonSurgrySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneNonSurgrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneNonSurgrySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneNonSurgrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowTwoNonSurgrySmStyle {
+    margin-top: 10%;
+}
+
+.Pic1NonSurgryRowTwoTreatmentSmStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoNonSurgrySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoNonSurgrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoNonSurgrySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoNonSurgrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+.DescaptirionRowThreeNonSurgrySmStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2NonSurgryRowThreeTreatmentSmStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeNonSurgrySmStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeNonSurgrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeNonSurgrySmStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeNonSurgrySmStyle {
+    font-family: W_yekan;
+    font-size: 1.6vw;
+    color: black;
+}
+
+
+/* #Xs*/
+
+
+.PanelNonSurgryXsStyle {
+}
+
+.ImgHeaderNonSurgryXsStyle {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.SliderDivTextNonSurgryXsStyle {
+    position: absolute;
+    margin-top: -33%;
+    margin-right: 3%;
+}
+
+.SliderTitrNonSurgryXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderZirDivTextNonSurgryXsStyle {
+    position: absolute;
+    margin-top: -29%;
+    margin-right: 3%;
+}
+
+.SliderZirTitrNonSurgryXsStyle {
+    color: rgba(12,144,68,1);
+    font-size: 6.5vw;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.SliderDivDescriptionNonSurgryTitrXsStyle {
+    position: absolute;
+    margin-top: -19%;
+    margin-right: 3.5%;
+}
+
+.SliderDescriptionNonSurgryTextTitrXsStyle {
+    color: rgba(0,76,52,1);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: W_yekan;
+}
+
+.DivBtnNonSurgrySingInXsStyle {
+    position: absolute;
+    margin-top: -13%;
+    margin-right: 3.5%;
+    background-color: rgba(141,198,63,1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+    .DivBtnNonSurgrySingInXsStyle:hover {
+        position: absolute;
+        margin-top: -13%;
+        margin-right: 3.5%;
+        background-color: rgba(141,198,63,1);
+        border-radius: 30px;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+
+.TextBtnNonSurgryXsStyle {
+    color: white;
+    font-size: 2.7vw;
+    font-weight: bold;
+}
+
+    .TextBtnNonSurgryXsStyle:hover {
+        color: white;
+        font-size: 2.7vw;
+        font-weight: bold;
+    }
+
+
+.DivZirHeadersImgTextNonSurgryXsStyle {
+    margin-top: 3%;
+}
+
+.ZirHeadersImgTextNonSurgryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.3vw;
+    color: black;
+}
+
+.DivVideoAndTextNonSurgryXsStyle {
+    margin-top: 5%;
+}
+
+.VideoNonSurgryXsStyle {
+    width: 100%;
+}
+
+.DivZirVideoNonSurgryXsStyle {
+    margin-top: 2%;
+}
+
+.TitrTextVideoNonSurgryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.ZirTextVideoNonSurgryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+.DescaptirionOrginalNonSurgryXsStyle {
+    margin-top: 8%;
+}
+
+.DescaptirionRowOneNonSurgryXsStyle {
+}
+
+.Pic3NonSurgryTreatmentRowOneTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowOneNonSurgryXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowOneNonSurgryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowOneNonSurgryXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowOneNonSurgryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowTwoNonSurgryXsStyle {
+    margin-top: 10%;
+}
+
+.Pic1NonSurgryRowTwoTreatmentXsStyle {
+    width: 55%;
+}
+
+.DivTitrRowTwoNonSurgryXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowTwoNonSurgryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRowTwoNonSurgryXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowTwoNonSurgryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
+
+
+.DescaptirionRowThreeNonSurgryXsStyle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Pic2NonSurgryRowThreeTreatmentXsStyle {
+    width: 50%;
+}
+
+.DivTitrRowThreeNonSurgryXsStyle {
+    margin-top: 3%;
+}
+
+.TitrTextRowThreeNonSurgryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.9vw;
+    color: black;
+    font-weight: bold;
+}
+
+.DivZirTitrTextRoThreeNonSurgryXsStyle {
+    margin-top: 1%;
+}
+
+.ZirTitrTextRowThreeNonSurgryXsStyle {
+    font-family: W_yekan;
+    font-size: 2.2vw;
+    color: black;
+}
